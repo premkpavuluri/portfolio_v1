@@ -7,6 +7,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import PortfolioContainer from "./styles/PortfolioContainer";
 
 const Portfolio = (props) => {
   const [activeSection, setActiveSection] = useState('about');
@@ -20,7 +21,7 @@ const Portfolio = (props) => {
     }
   };
 
-  return (<div>
+  return (<PortfolioContainer>
     <NavBar onClick={handleScrollSection} activeSection={activeSection}/>
     <>
       <About id="about"/>
@@ -30,7 +31,7 @@ const Portfolio = (props) => {
       <Projects id="projects"/>
       <Contact id="contact"/>
     </>
-  </div>);
+  </PortfolioContainer>);
 }
 
 const App = () => (<Portfolio/>);
