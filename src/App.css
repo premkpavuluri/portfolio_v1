@@ -7,23 +7,6 @@
     --text-color: whitesmoke;
 }
 
-.App {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-.nav-bar {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 1rem;
-    background-color: #f0f0f0;
-    position: sticky;
-    top: 0;
-    z-index: 100;
-}
-
 .nav-button {
     padding: 0.5rem 1rem;
     border: none;

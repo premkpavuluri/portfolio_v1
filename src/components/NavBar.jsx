@@ -1,5 +1,6 @@
 import React from "react";
 import {sections} from "../constants/sections";
+import {NavBarContainer} from "../styles/PortfolioComponents";
 
 const NavBar = ({onClick, activeSection}) => {
   const buttons = sections.map((section) => (
@@ -12,7 +13,7 @@ const NavBar = ({onClick, activeSection}) => {
     </button>
   ));
 
-  return (<div className={"nav-bar"}>{buttons}</div>);
+  return (<NavBarContainer>{buttons}</NavBarContainer>);
 }
 
 export default NavBar;

@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import PortfolioContainer from "../styles/PortfolioContainer";
+import {PortfolioContainer} from "../styles/PortfolioComponents";
 import NavBar from "./NavBar";
 import About from "./About";
 import Skills from "./Skills";
