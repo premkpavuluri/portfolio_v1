@@ -22,11 +22,11 @@ const Portfolio = (props) => {
   return (<PortfolioContainer>
     <NavBar onClick={handleScrollSection} activeSection={activeSection}/>
     <>
-      <About id="about"/>
-      <Skills id="skills"/>
-      <Experience id="experience"/>
-      <Projects id="projects"/>
-      <Contact id="contact"/>
+      <About id="about-id"/>
+      <Skills id="skills-id"/>
+      <Experience id="experience-id"/>
+      <Projects id="projects-id"/>
+      <Contact id="contact-id"/>
     </>
   </PortfolioContainer>);
 }
