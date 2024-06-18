@@ -6,6 +6,7 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
+import {sections} from "../constants/sections";
 
 const Portfolio = (props) => {
   const [activeSection, setActiveSection] = useState('about');
@@ -22,11 +23,11 @@ const Portfolio = (props) => {
   return (<PortfolioContainer>
     <NavBar onClick={handleScrollSection} activeSection={activeSection}/>
     <>
-      <About id="about-id"/>
-      <Skills id="skills-id"/>
-      <Experience id="experience-id"/>
-      <Projects id="projects-id"/>
-      <Contact id="contact-id"/>
+      <About id={sections[0].id}/>
+      <Skills id={sections[1].id}/>
+      <Experience id={sections[2].id}/>
+      <Projects id={sections[3].id}/>
+      <Contact id={sections[4].id}/>
     </>
   </PortfolioContainer>);
 }
