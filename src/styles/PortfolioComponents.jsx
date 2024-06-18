@@ -32,7 +32,7 @@ const NavBtn = styled.div`
     width: 100%;
     height: 100%;
     padding: 1rem;
-    
+
     &:hover {
         background-color: var(--primary-color);
         cursor: pointer;

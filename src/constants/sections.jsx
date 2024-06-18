@@ -1,10 +1,10 @@
 const sectionLabels = {
-  ABOUT: 'About',
-  SKILLS: 'Skills',
-  EXPERIENCE: 'Experience',
-  EDUCATION: 'Education',
-  PROJECTS: 'Projects',
-  CONTACT: 'Contact'
+  ABOUT: 'ABOUT',
+  SKILLS: 'SKILLS',
+  EXPERIENCE: 'EXPERIENCE',
+  EDUCATION: 'EDUCATION',
+  PROJECTS: 'PROJECTS',
+  CONTACT: 'CONTACT'
 };
 
 const sections = [
