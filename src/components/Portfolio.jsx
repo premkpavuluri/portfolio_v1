@@ -4,7 +4,6 @@ import NavBar from "./NavBar";
 import About from "./About";
 import Skills from "./Skills";
 import Experience from "./Experience";
-import Education from "./Education";
 import Projects from "./Projects";
 import Contact from "./Contact";
 
@@ -26,7 +25,6 @@ const Portfolio = (props) => {
       <About id="about"/>
       <Skills id="skills"/>
       <Experience id="experience"/>
-      <Education id="education"/>
       <Projects id="projects"/>
       <Contact id="contact"/>
     </>
