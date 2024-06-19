@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {PortfolioContainer} from "../styles/PortfolioComponents";
+import {Main, PortfolioContainer} from "../styles/PortfolioComponents";
 import Header from "./Header";
 import About from "./About";
 import Skills from "./Skills";
@@ -23,13 +23,13 @@ const Portfolio = () => {
 
   return (<PortfolioContainer>
     <Header onClick={handleScrollSection} activeSection={activeSection}/>
-    <>
+    <Main>
       <About id={sections[0].id}/>
       <Skills id={sections[1].id}/>
       <Experience id={sections[2].id}/>
       <Projects id={sections[3].id}/>
       <Contact id={sections[4].id}/>
-    </>
+    </Main>
   </PortfolioContainer>);
 }
 

@@ -11,6 +11,7 @@ const PortfolioContainer = styled.div`
     margin: 0;
     font-size: 16px;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 `
 
 const NavBar = styled.nav`
@@ -37,7 +38,7 @@ const HeaderBox = styled.header`
     color: var(--text-color);
     background-color: var(--secondary-background-color);
     width: 100%;
-    position: sticky;
+    position: fixed;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -59,6 +60,13 @@ const NameLogo = styled.div`
     }
 `;
 
+const Main = styled.main`
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 2rem;
+`;
+
 const AboutCard = styled.div`
     background-color: var(--primary-background-color);
     color: var(--text-color);
@@ -67,7 +75,8 @@ const AboutCard = styled.div`
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    justify-content: center;
+    margin-top: 4rem;
+    padding: 5rem 0;
 `
 
 export {
@@ -76,5 +85,6 @@ export {
   NavBar,
   NavBtn,
   NameLogo,
+  Main,
   AboutCard
 };
