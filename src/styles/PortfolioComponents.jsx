@@ -25,6 +25,7 @@ const NavBtn = styled.div`
     width: 100%;
     height: 100%;
     padding: 1rem;
+    text-align: center;
 
     &:hover {
         background-color: var(--primary-color);
@@ -45,7 +46,7 @@ const HeaderBox = styled.header`
 `;
 
 const NameLogo = styled.div`
-    width: 30%;
+    width: 50%;
     font-size: 1.5rem;
     color: var(--primary-color);
     border-radius: 10px;
