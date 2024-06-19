@@ -5,6 +5,7 @@
 * [ ] Build Skills section
   * [ ] Build Skills Cards
   * [ ] Download all the logos of the skills
+  * [ ] Add Hover Effects
 * [ ] Build Experience section
   * [ ] Build Timeline 
   * [ ] Experiments with the timeline

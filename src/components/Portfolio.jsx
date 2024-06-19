@@ -6,10 +6,11 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import {sections} from "../constants/sections";
+import config from "../config/Config";
 
-const Portfolio = (props) => {
-  const [activeSection, setActiveSection] = useState('about');
+const Portfolio = () => {
+  const {sections} = config;
+  const [activeSection, setActiveSection] = useState(sections[0].id);
 
   const handleScrollSection = (sectionId) => {
     setActiveSection(sectionId);

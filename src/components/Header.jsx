@@ -1,8 +1,9 @@
 import React from "react";
-import {sections} from "../constants/sections";
 import {HeaderBox, NameLogo, NavBar, NavBtn} from "../styles/PortfolioComponents";
+import config from "../config/Config";
 
 const Header = ({onClick, activeSection}) => {
+  const {sections, YourName} = config;
   console.debug("Header activeSection: ", activeSection);
 
   const buttons = sections.map((section) => (
@@ -12,7 +13,9 @@ const Header = ({onClick, activeSection}) => {
   ));
 
   return (<HeaderBox>
-    <NameLogo>Prem Kumar</NameLogo>
+    <NameLogo onClick={() => onClick(sections[0].id)}>
+      {YourName}
+    </NameLogo>
     <NavBar>{buttons}</NavBar>
   </HeaderBox>);
 }
