@@ -39,13 +39,29 @@ const HeaderBox = styled.header`
     position: sticky;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     top: 0;
     z-index: 100;
+`;
+
+const NameLogo = styled.div`
+    width: 30%;
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    border-radius: 10px;
+    justify-content: center;
+    align-content: center;
+    padding: 0 3rem;
+
+    &:hover {
+        cursor: pointer;
+    }
 `;
 
 export {
   PortfolioContainer,
   HeaderBox,
   NavBar,
-  NavBtn
+  NavBtn,
+  NameLogo
 };
