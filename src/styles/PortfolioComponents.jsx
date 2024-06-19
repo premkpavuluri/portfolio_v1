@@ -59,10 +59,22 @@ const NameLogo = styled.div`
     }
 `;
 
+const AboutCard = styled.div`
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+    width: 70%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+`
+
 export {
   PortfolioContainer,
   HeaderBox,
   NavBar,
   NavBtn,
-  NameLogo
+  NameLogo,
+  AboutCard
 };
