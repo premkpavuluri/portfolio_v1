@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {PortfolioContainer} from "../styles/PortfolioComponents";
-import NavBar from "./NavBar";
+import Header from "./Header";
 import About from "./About";
 import Skills from "./Skills";
 import Experience from "./Experience";
@@ -21,7 +21,7 @@ const Portfolio = (props) => {
   };
 
   return (<PortfolioContainer>
-    <NavBar onClick={handleScrollSection} activeSection={activeSection}/>
+    <Header onClick={handleScrollSection} activeSection={activeSection}/>
     <>
       <About id={sections[0].id}/>
       <Skills id={sections[1].id}/>

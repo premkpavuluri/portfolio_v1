@@ -13,7 +13,7 @@ const PortfolioContainer = styled.div`
     font-family: sans-serif;
 `
 
-const NavBarContainer = styled.div`
+const NavBar = styled.nav`
     width: 100%;
     position: sticky;
     display: flex;
@@ -41,6 +41,6 @@ const NavBtn = styled.div`
 
 export {
   PortfolioContainer,
-  NavBarContainer,
+  NavBar,
   NavBtn
 };
