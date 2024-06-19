@@ -1,10 +1,4 @@
 # :::TODO:::
-* [ ] Build Nav Bar
-    * [ ] Add Logo(Name)
-    * [ ] Add Buttons and style them
-    * [ ] Add Links to Buttons
-    * [ ] Add Hover Effects
-    * [ ] Add Active Effects
 * [ ] Build About section
   * [ ] Build Image section
   * [ ] Build About section
@@ -36,3 +30,9 @@
 * [ ] Setup eslint for the project
 
 # :::DONE:::
+* [x] Build Nav Bar
+  * [x] Add Logo(Name)
+  * [x] Add Buttons and style them
+  * [x] Add Links to Buttons
+  * [x] Add Hover Effects
+  * [x] ~~Add Active Effects~~
