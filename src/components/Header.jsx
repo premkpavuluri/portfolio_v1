@@ -1,6 +1,6 @@
 import React from "react";
 import {sections} from "../constants/sections";
-import {NavBar, NavBtn} from "../styles/PortfolioComponents";
+import {HeaderBox, NavBar, NavBtn} from "../styles/PortfolioComponents";
 
 const Header = ({onClick, activeSection}) => {
   console.log("Header activeSection: ", activeSection);
@@ -11,7 +11,7 @@ const Header = ({onClick, activeSection}) => {
     </NavBtn>
   ));
 
-  return (<NavBar>{buttons}</NavBar>);
+  return (<HeaderBox><NavBar>{buttons}</NavBar></HeaderBox>);
 }
 
 export default Header;

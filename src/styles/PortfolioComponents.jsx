@@ -15,19 +15,12 @@ const PortfolioContainer = styled.div`
 
 const NavBar = styled.nav`
     width: 100%;
-    position: sticky;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    background-color: var(--secondary-background-color);
-    top: 0;
-    z-index: 100;
 `
 
 const NavBtn = styled.div`
-    background-color: var(--secondary-background-color);
-    color: var(--text-color);
     font-size: 1.1rem;
     width: 100%;
     height: 100%;
@@ -39,8 +32,20 @@ const NavBtn = styled.div`
     }
 `;
 
+const HeaderBox = styled.header`
+    color: var(--text-color);
+    background-color: var(--secondary-background-color);
+    width: 100%;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    top: 0;
+    z-index: 100;
+`;
+
 export {
   PortfolioContainer,
+  HeaderBox,
   NavBar,
   NavBtn
 };
