@@ -33,5 +33,6 @@
   * [ ] Add a dark mode
   * [ ] Add a light mode
 * [ ] Update the Readme file and provide prod link
+* [ ] Setup eslint for the project
 
 # :::DONE:::
