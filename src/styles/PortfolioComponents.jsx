@@ -66,11 +66,30 @@ const Main = styled.main`
     width: 100%;
 `;
 
+const AboutCard = styled.div`
+    color: var(--text-color);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    padding: 5rem 0;
+`;
+
+const BgCard = styled.div`
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+    display: flex;
+    margin-top: 4rem;
+    padding: 4rem 2rem;
+`;
+
 export {
   PortfolioContainer,
   HeaderBox,
   NavBar,
   NavBtn,
   NameLogo,
-  Main
+  Main,
+  AboutCard,
+  BgCard
 };

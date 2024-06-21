@@ -1,21 +1,5 @@
 import React from "react";
-import styled from "styled-components";
-
-const AboutCard = styled.div`
-    color: var(--text-color);
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    padding: 5rem 0;
-`
-
-const BgCard = styled.div`
-    background-color: var(--primary-background-color);
-    color: var(--text-color);
-    display: flex;
-    margin-top: 4rem;
-`;
+import {AboutCard, BgCard} from "../styles/PortfolioComponents";
 
 const About = ({id}) => {
   return (<AboutCard id={id}>
