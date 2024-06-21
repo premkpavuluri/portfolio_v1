@@ -64,20 +64,7 @@ const Main = styled.main`
     display: flex;
     flex-direction: column;
     width: 100%;
-    margin: 2rem;
 `;
-
-const AboutCard = styled.div`
-    background-color: var(--primary-background-color);
-    color: var(--text-color);
-    width: 70%;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    margin-top: 4rem;
-    padding: 5rem 0;
-`
 
 export {
   PortfolioContainer,
@@ -85,6 +72,5 @@ export {
   NavBar,
   NavBtn,
   NameLogo,
-  Main,
-  AboutCard
+  Main
 };
