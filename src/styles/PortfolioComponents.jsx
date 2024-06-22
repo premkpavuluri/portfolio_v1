@@ -78,9 +78,32 @@ const AboutCard = styled.div`
 const BgCard = styled.div`
     background-color: var(--primary-background-color);
     color: var(--text-color);
-    display: flex;
+    width: 100%;
     margin-top: 4rem;
     padding: 4rem 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+`;
+
+const DPBox = styled.div`
+    background-color: var(--primary-color);
+    display: block;
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    margin: 0 auto;
+`;
+
+const DescriptionBox = styled.div`
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
 `;
 
 export {
@@ -91,5 +114,7 @@ export {
   NameLogo,
   Main,
   AboutCard,
-  BgCard
+  BgCard,
+  DPBox,
+  DescriptionBox
 };
