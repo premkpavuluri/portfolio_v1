@@ -1,7 +1,9 @@
 # :::TODO:::
 * [ ] Build About section
-  * [ ] Build Image section
-  * [ ] Build About section
+  * [ ] Add Profile Picture in the Image section
+  * [ ] Add Hover Effects on image
+  * [x] Build Image section
+  * [x] Build About section
 * [ ] Build Skills section
   * [ ] Build Skills Cards
   * [ ] Download all the logos of the skills
