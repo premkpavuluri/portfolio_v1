@@ -9,6 +9,7 @@ const sectionLabels = {
 
 const config = {
   YourName: 'Prem Kumar',
+  city: 'Andhra Pradesh, India',
   sections: [
     {id: 'about-id', title: sectionLabels.ABOUT},
     {id: 'skills-id', title: sectionLabels.SKILLS},

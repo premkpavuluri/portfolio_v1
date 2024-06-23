@@ -103,7 +103,25 @@ const DescriptionBox = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    align-items: flex-start;
+    row-gap: 1rem;
+`;
+
+const LocationBox = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
+`;
+
+const LocationIcon = styled.img`
+    width: 1.7em;
+    height: 1.7rem;
+`;
+
+const LocationText = styled.p`
+    margin-left: 0.1em;
+    font-size: 1.5rem;
 `;
 
 export {
@@ -116,5 +134,8 @@ export {
   AboutCard,
   BgCard,
   DPBox,
-  DescriptionBox
+  DescriptionBox,
+  LocationBox,
+  LocationIcon,
+  LocationText
 };
