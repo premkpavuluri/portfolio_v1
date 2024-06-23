@@ -1,18 +1,21 @@
 import React from "react";
-import {AboutCard, BgCard, DescriptionBox, DPBox} from "../styles/PortfolioComponents";
+import {AboutCard, AboutIcon, BgCard, Description, DescriptionBox, DPBox} from "../styles/PortfolioComponents";
 import Location from "./Location";
 import config from "../config/Config";
+import aboutIcon from "../assets/about.png";
 
 const About = ({id}) => {
-  const {city} = config;
+  const {city, aboutMe} = config;
 
   return (<AboutCard id={id}>
     <BgCard>
       <DPBox></DPBox>
       <DescriptionBox>
         <Location city={city}></Location>
-        I am a full-stack web developer with a passion for creating responsive web applications. I enjoy working on projects that challenge me to
-        grow.
+        <Description>
+          <AboutIcon src={aboutIcon}></AboutIcon>
+          {aboutMe}
+        </Description>
       </DescriptionBox>
     </BgCard>
   </AboutCard>);

@@ -104,7 +104,7 @@ const DescriptionBox = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    row-gap: 1rem;
+    row-gap: 1.5rem;
 `;
 
 const LocationBox = styled.div`
@@ -120,8 +120,21 @@ const LocationIcon = styled.img`
 `;
 
 const LocationText = styled.p`
-    margin-left: 0.1em;
+    margin-left: 0.5em;
     font-size: 1.5rem;
+`;
+
+const Description = styled.div`
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+`;
+
+const AboutIcon = styled.img`
+    width: 1.7em;
+    height: 1.9rem;
+    margin-right: 0.5em;
 `;
 
 export {
@@ -137,5 +150,7 @@ export {
   DescriptionBox,
   LocationBox,
   LocationIcon,
-  LocationText
+  LocationText,
+  Description,
+  AboutIcon
 };

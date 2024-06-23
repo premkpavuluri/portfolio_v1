@@ -10,6 +10,7 @@ const sectionLabels = {
 const config = {
   YourName: 'Prem Kumar',
   city: 'Andhra Pradesh, India',
+  aboutMe: `I am a full-stack web developer. I enjoy working on projects that challenge me to grow.`,
   sections: [
     {id: 'about-id', title: sectionLabels.ABOUT},
     {id: 'skills-id', title: sectionLabels.SKILLS},
