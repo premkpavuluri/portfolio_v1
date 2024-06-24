@@ -1,19 +1,10 @@
 import React from "react";
 import {SkillsCard, SkillsContainer, TitleSection} from "../styles/PortfolioComponents";
 import SkillCard from "./SkillCard";
+import config from "../config/Config";
 
 const Skills = ({id}) => {
-  const skills = [
-    "Bash",
-    "JavaScript",
-    "Nodejs",
-    "HTML",
-    "CSS",
-    "Docker",
-    "Kotlin",
-    "Python",
-    "MongoDB"
-  ];
+  const {skills} = config;
   const cards = skills.map((skill) => {
     return <SkillCard name={skill}/>
   });
