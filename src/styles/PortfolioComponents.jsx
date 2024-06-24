@@ -72,7 +72,7 @@ const AboutCard = styled.div`
     margin-left: auto;
     margin-right: auto;
     align-items: center;
-    padding: 5rem 0;
+    padding-top: 5rem;
 `;
 
 const BgCard = styled.div`
@@ -145,6 +145,57 @@ const AboutIcon = styled.img`
     margin-right: 0.5em;
 `;
 
+const SkillsCard = styled.div`
+    color: var(--text-color);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+`;
+
+const TitleSection = styled.div`
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    color: var(--text-color);
+`;
+
+const SkillsContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 1rem;
+    flex-wrap: wrap;
+`;
+
+const Skill = styled.div`
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+    width: 15%;
+    height: 15%;
+    display: block;
+    text-align: center;
+`;
+
+const SkillName = styled.div`
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+`;
+
+const SkillIcon = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    aspect-ratio: 1;
+    padding: 0.8rem;
+`;
+
 export {
   PortfolioContainer,
   HeaderBox,
@@ -161,5 +212,11 @@ export {
   LocationText,
   Description,
   AboutIcon,
-  ProfilePic
+  ProfilePic,
+  SkillsCard,
+  TitleSection,
+  SkillsContainer,
+  Skill,
+  SkillName,
+  SkillIcon
 };

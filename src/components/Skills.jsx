@@ -1,16 +1,29 @@
 import React from "react";
+import {SkillsCard, SkillsContainer, TitleSection} from "../styles/PortfolioComponents";
+import SkillCard from "./SkillCard";
 
 const Skills = ({id}) => {
-  return (<div className={"section"} id={id}>
-    <h1>Skills</h1>
-    <ul>
-      <li>JavaScript</li>
-      <li>React</li>
-      <li>Node.js</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-  </div>);
+  const skills = [
+    "Bash",
+    "JavaScript",
+    "Nodejs",
+    "HTML",
+    "CSS",
+    "Docker",
+    "Kotlin",
+    "Python",
+    "MongoDB"
+  ];
+  const cards = skills.map((skill) => {
+    return <SkillCard name={skill}/>
+  });
+
+  return (<SkillsCard id={id}>
+    <TitleSection>SKILLS</TitleSection>
+    <SkillsContainer>
+      {cards}
+    </SkillsContainer>
+  </SkillsCard>);
 }
 
 export default Skills;
