@@ -1,21 +1,26 @@
 import React from "react";
-import {AboutCard, AboutIcon, BgCard, Description, DescriptionBox, DPBox} from "../styles/PortfolioComponents";
+import {
+  AboutCard,
+  AboutIcon,
+  BgCard,
+  Description,
+  DescriptionBox,
+  DPBox,
+  ProfilePic
+} from "../styles/PortfolioComponents";
 import Location from "./Location";
 import config from "../config/Config";
 import aboutIcon from "../assets/about.png";
 
 const About = ({id}) => {
-  const {city, aboutMe} = config;
+  const {city, aboutMe, profilePic} = config;
 
   return (<AboutCard id={id}>
     <BgCard>
-      <DPBox></DPBox>
+      <DPBox><ProfilePic src={profilePic} alt="Profile"/></DPBox>
       <DescriptionBox>
         <Location city={city}></Location>
-        <Description>
-          <AboutIcon src={aboutIcon}></AboutIcon>
-          {aboutMe}
-        </Description>
+        <Description><AboutIcon src={aboutIcon}></AboutIcon>{aboutMe}</Description>
       </DescriptionBox>
     </BgCard>
   </AboutCard>);

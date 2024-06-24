@@ -89,13 +89,21 @@ const BgCard = styled.div`
 `;
 
 const DPBox = styled.div`
-    background-color: var(--primary-color);
     display: block;
     height: 250px;
     width: 250px;
     border-radius: 50%;
     aspect-ratio: 1;
     margin: 0 auto;
+`;
+
+const ProfilePic = styled.img`
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    border-radius: 50%;
+    aspect-ratio: 1;
+    border: 0.2em solid var(--primary-color);
 `;
 
 const DescriptionBox = styled.div`
@@ -152,5 +160,6 @@ export {
   LocationIcon,
   LocationText,
   Description,
-  AboutIcon
+  AboutIcon,
+  ProfilePic
 };
