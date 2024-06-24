@@ -1,9 +1,4 @@
 # :::TODO:::
-* [ ] Build About section
-  * [ ] Add Profile Picture in the Image section
-  * [ ] Add Hover Effects on image
-  * [x] Build Image section
-  * [x] Build About section
 * [ ] Build Skills section
   * [ ] Build Skills Cards
   * [ ] Download all the logos of the skills
@@ -33,6 +28,11 @@
 * [ ] Setup eslint for the project
 
 # :::DONE:::
+* [x] Build About section
+  * [x] Add Profile Picture in the Image section
+  * [x] ~~Add Hover Effects on image~~
+  * [x] Build Image section
+  * [x] Build About section
 * [x] Build Nav Bar
   * [x] Add Logo(Name)
   * [x] Add Buttons and style them
