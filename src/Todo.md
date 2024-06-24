@@ -26,6 +26,7 @@
   * [ ] Add a light mode
 * [ ] Update the Readme file and provide prod link
 * [ ] Setup eslint for the project
+* [ ] Add loader while fetching profile picture
 
 # :::DONE:::
 * [x] Build About section
