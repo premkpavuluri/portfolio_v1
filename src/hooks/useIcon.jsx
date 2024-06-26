@@ -11,6 +11,7 @@ import {ReactComponent as ReactJsIcon} from '../assets/reactjs.svg';
 import {ReactComponent as SpringIcon} from '../assets/spring.svg';
 import {ReactComponent as DockerIcon} from "../assets/docker.svg";
 import {ReactComponent as MongoDBIcon} from "../assets/mongodb.svg";
+import {ReactComponent as IconNotFound} from "../assets/404Icon.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
@@ -25,7 +26,7 @@ const iconComponents = {
   'springboot': SpringIcon,
   'docker': DockerIcon,
   'mongodb': MongoDBIcon,
-  'default': JavascriptIcon
+  'default': IconNotFound
 };
 
 const useIcon = (name) => {
