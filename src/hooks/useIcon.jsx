@@ -1,24 +1,25 @@
 import {useEffect, useState} from 'react';
+import {ReactComponent as JavascriptIcon} from '../assets/javascript.svg';
+import {ReactComponent as BashIcon} from '../assets/bash.svg';
+
+const iconComponents = {
+  'javascript': JavascriptIcon,
+  'bash': BashIcon,
+  'default': JavascriptIcon
+};
 
 const useIcon = (name) => {
   const [SvgIcon, setSvgIcon] = useState(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState(null);
 
   useEffect(() => {
-    import(`../assets/${name}.svg`)
-      .then((icon) => {
-        setSvgIcon(() => icon.ReactComponent);
-        setLoading(false);
-      })
-      .catch((error) => {
-        console.error(`Error loading icon: ${name}`, error);
-        setError(error);
-        setLoading(false);
-      });
+    let icon = iconComponents[name];
+    if (!icon) {
+      icon = iconComponents['default'];
+    }
+    setSvgIcon(() => icon);
   }, [name]);
 
-  return { SvgIcon, loading, error };
+  return { SvgIcon };
 };
 
 export default useIcon;

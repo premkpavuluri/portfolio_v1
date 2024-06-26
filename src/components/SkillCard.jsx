@@ -1,11 +1,12 @@
 import React from "react";
-import {Skill, SkillName} from "../styles/PortfolioComponents";
+import {Skill, SkillIcon, SkillName} from "../styles/PortfolioComponents";
 import Icon from "./Icon";
 
 const SkillCard = ({name}) => {
   return (<Skill>
-    <Icon name={name} />
-    {/*<SkillIcon as={Icon} name={name.toLowerCase()} alt={name} />*/}
+    <SkillIcon>
+      <Icon name={name} />
+    </SkillIcon>
     <SkillName>{name}</SkillName>
   </Skill>);
 }

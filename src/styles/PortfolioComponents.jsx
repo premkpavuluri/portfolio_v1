@@ -188,7 +188,7 @@ const SkillName = styled.div`
     padding-bottom: 0.8rem;
 `;
 
-const SkillIcon = styled.img`
+const SkillIcon = styled.div`
     width: 100%;
     height: 100%;
     object-fit: fill;
