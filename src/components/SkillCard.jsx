@@ -1,11 +1,11 @@
-import {Skill, SkillIcon, SkillName} from "../styles/PortfolioComponents";
 import React from "react";
+import {Skill, SkillName} from "../styles/PortfolioComponents";
+import Icon from "./Icon";
 
 const SkillCard = ({name}) => {
-  const logo = `https://img.icons8.com/color/100/000000/${name.toLowerCase()}.png`;
-
   return (<Skill>
-    <SkillIcon src={logo} alt={name}></SkillIcon>
+    <Icon name={name} />
+    {/*<SkillIcon as={Icon} name={name.toLowerCase()} alt={name} />*/}
     <SkillName>{name}</SkillName>
   </Skill>);
 }

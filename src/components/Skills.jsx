@@ -6,7 +6,7 @@ import config from "../config/Config";
 const Skills = ({id}) => {
   const {skills} = config;
   const cards = skills.map((skill) => {
-    return <SkillCard name={skill}/>
+    return <SkillCard name={skill.toLowerCase()}/>
   });
 
   return (<SkillsCard id={id}>

@@ -22,13 +22,13 @@ const config = {
   skills: [
     "Bash",
     "JavaScript",
-    "Nodejs",
-    "HTML",
-    "CSS",
-    "Docker",
-    "Kotlin",
-    "Python",
-    "MongoDB"
+    // "Nodejs",
+    // "HTML",
+    // "CSS",
+    // "Docker",
+    // "Kotlin",
+    // "Python",
+    // "MongoDB"
   ],
 };
 
