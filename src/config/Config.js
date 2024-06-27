@@ -20,20 +20,55 @@ const config = {
   aboutMe: `I am a full-stack web developer. I enjoy working on projects that challenge me to grow.`,
   profilePic: 'https://avatars.githubusercontent.com/u/52355836?v=4',
   skills: [
-    "Bash",
-    "JavaScript",
-    "Java",
-    "Kotlin",
-    "Python",
-    "Nodejs",
-    "ReactJs",
-    "HTML",
-    "CSS",
-    "SpringBoot",
-    "Docker",
-    "MongoDB"
+    {
+      name: "bash",
+      displayName: "Bash"
+    },
+    {
+      name: "javascript",
+      displayName: "JavaScript"
+    },
+    {
+      name: "java",
+      displayName: "Java"
+    },
+    {
+      name: "kotlin",
+      displayName: "Kotlin"
+    },
+    {
+      name: "python",
+      displayName: "Python"
+    },
+    {
+      name: "nodejs",
+      displayName: "NodeJS"
+    },
+    {
+      name: "reactjs",
+      displayName: "React JS"
+    },
+    {
+      name: "html",
+      displayName: "HTML"
+    },
+    {
+      name: "css",
+      displayName: "CSS"
+    },
+    {
+      name: "spring",
+      displayName: "Spring"
+    },
+    {
+      name: "docker",
+      displayName: "Docker"
+    },
+    {
+      name: "mongodb",
+      displayName: "MongoDB"
+    }
   ],
 };
-
 
 export default config;

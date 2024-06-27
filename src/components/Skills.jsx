@@ -5,14 +5,18 @@ import config from "../config/Config";
 
 const Skills = ({id}) => {
   const {skills} = config;
-  const cards = skills.map((skill) => {
-    return <SkillCard name={skill.toLowerCase()}/>
+  const skillCards = skills.map(({name, displayName}) => {
+    return <SkillCard
+      key={name}
+      name={name.toLowerCase()}
+      displayName={displayName}
+    />
   });
 
   return (<SkillsCard id={id}>
     <TitleSection>SKILLS</TitleSection>
     <SkillsContainer>
-      {cards}
+      {skillCards}
     </SkillsContainer>
   </SkillsCard>);
 }

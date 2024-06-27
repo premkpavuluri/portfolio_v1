@@ -23,7 +23,7 @@ const iconComponents = {
   'kotlin': KotlinIcon,
   'python': PythonIcon,
   'reactjs': ReactJsIcon,
-  'springboot': SpringIcon,
+  'spring': SpringIcon,
   'docker': DockerIcon,
   'mongodb': MongoDBIcon,
   'default': IconNotFound
