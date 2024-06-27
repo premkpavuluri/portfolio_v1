@@ -181,6 +181,8 @@ const Skill = styled.div`
     height: 15%;
     display: block;
     text-align: center;
+    padding: 0.5rem;
+    border-radius: 10px;
 `;
 
 const SkillName = styled.div`
@@ -189,11 +191,12 @@ const SkillName = styled.div`
 `;
 
 const SkillIcon = styled.div`
-    width: 100%;
-    height: 100%;
+    width: 70%;
+    height: 70%;
     object-fit: fill;
     aspect-ratio: 1;
     padding: 0.8rem;
+    margin: 0 auto;
 `;
 
 export {
