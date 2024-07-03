@@ -27,6 +27,7 @@
 * [ ] Update the Readme file and provide prod link
 * [ ] Setup eslint for the project
 * [ ] Add loader while fetching profile picture
+* [ ] Add favicon to the website with pk logo
 
 # :::DONE:::
 * [x] Build About section
