@@ -1,7 +1,7 @@
 import React from "react";
 import {SkillsCard, SkillsContainer, TitleSection} from "../styles/PortfolioComponents";
 import SkillCard from "./SkillCard";
-import config from "../config/Config";
+import {config, sectionLabels} from "../config/Config";
 
 const Skills = ({id}) => {
   const {skills} = config;
@@ -14,7 +14,7 @@ const Skills = ({id}) => {
   });
 
   return (<SkillsCard id={id}>
-    <TitleSection>SKILLS</TitleSection>
+    <TitleSection>{sectionLabels.SKILLS}</TitleSection>
     <SkillsContainer>
       {skillCards}
     </SkillsContainer>

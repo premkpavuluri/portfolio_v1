@@ -9,7 +9,7 @@ import {
   ProfilePic
 } from "../styles/PortfolioComponents";
 import Location from "./Location";
-import config from "../config/Config";
+import {config} from "../config/Config";
 import aboutIcon from "../assets/about.png";
 
 const About = ({id}) => {

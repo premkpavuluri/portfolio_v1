@@ -6,7 +6,7 @@ import Skills from "./Skills";
 import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
-import config from "../config/Config";
+import {config} from "../config/Config";
 
 const Portfolio = () => {
   const {sections} = config;

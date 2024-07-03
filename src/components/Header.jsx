@@ -1,6 +1,6 @@
 import React from "react";
 import {HeaderBox, NameLogo, NavBar, NavBtn} from "../styles/PortfolioComponents";
-import config from "../config/Config";
+import {config} from "../config/Config";
 
 const Header = ({onClick, activeSection}) => {
   const {sections, YourName} = config;
