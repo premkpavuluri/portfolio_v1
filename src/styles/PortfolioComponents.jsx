@@ -183,10 +183,12 @@ const Skill = styled.div`
     text-align: center;
     padding: 0.5rem;
     border-radius: 10px;
+    transition: 0.5s;
 
     &:hover {
         box-shadow: 0 0 0.2rem 1 var(--primary-color);
-        transform: scale(1.05);
+        transform: scale(1.09);
+        transition: 0.5s;
         cursor: pointer;
     }
 `;
