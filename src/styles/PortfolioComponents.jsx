@@ -207,6 +207,57 @@ const SkillIcon = styled.div`
     margin: 0 auto;
 `;
 
+const ExperienceBox = styled.div`
+    color: var(--text-color);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+`;
+
+const ExperienceItem = styled.div`
+    background-color: var(--primary-background-color);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    margin: 0.5rem;
+    column-gap: 1.5rem;
+`;
+
+const TimeLineBox = styled.div`
+    width: 15%;
+    display: block;
+    text-align: center;
+`;
+
+const AboutExpBox = styled.div`
+    display: flex;
+    width: 85%;
+    flex-direction: column;
+    row-gap: 1rem;
+`;
+
+const JobTitle = styled.h2`
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+`;
+
+const JobDescription = styled.p`
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+`;
+
+
 export {
   PortfolioContainer,
   HeaderBox,
@@ -229,5 +280,11 @@ export {
   SkillsContainer,
   Skill,
   SkillName,
-  SkillIcon
+  SkillIcon,
+  ExperienceBox,
+  ExperienceItem,
+  TimeLineBox,
+  AboutExpBox,
+  JobTitle,
+  JobDescription
 };

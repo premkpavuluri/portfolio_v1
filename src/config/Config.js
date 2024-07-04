@@ -15,7 +15,7 @@ const config = {
     {id: 'projects-id', title: sectionLabels.PROJECTS},
     {id: 'contact-id', title: sectionLabels.CONTACT}
   ],
-  YourName: 'Prem Kumar',
+  myName: 'Prem Kumar',
   city: 'Andhra Pradesh, India',
   aboutMe: `I am a full-stack web developer. I enjoy working on projects that challenge me to grow.`,
   profilePic: 'https://avatars.githubusercontent.com/u/52355836?v=4',
@@ -67,6 +67,23 @@ const config = {
     {
       name: "mongodb",
       displayName: "MongoDB"
+    }
+  ],
+  // Latest first
+  myExperience: [
+    {
+      company: 'ThoughtWorks',
+      role: 'Full Stack Developer',
+      description: "I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications.I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications. I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications.",
+      from: '2023',
+      to: 'Present'
+    },
+    {
+      company: 'ThoughtWorks',
+      role: 'Intern',
+      description: "I worked as an intern at ThoughtWorks where I was responsible for building and maintaining web applications.",
+      from: '2021',
+      to: '2023'
     }
   ],
 };

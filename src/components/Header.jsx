@@ -3,7 +3,7 @@ import {HeaderBox, NameLogo, NavBar, NavBtn} from "../styles/PortfolioComponents
 import {config} from "../config/Config";
 
 const Header = ({onClick, activeSection}) => {
-  const {sections, YourName} = config;
+  const {sections, myName} = config;
   console.debug("Header activeSection: ", activeSection);
 
   const buttons = sections.map((section) => (
@@ -14,7 +14,7 @@ const Header = ({onClick, activeSection}) => {
 
   return (<HeaderBox>
     <NameLogo onClick={() => onClick(sections[0].id)}>
-      {YourName}
+      {myName}
     </NameLogo>
     <NavBar>{buttons}</NavBar>
   </HeaderBox>);
