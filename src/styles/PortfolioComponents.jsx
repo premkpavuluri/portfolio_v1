@@ -245,11 +245,15 @@ const AboutExpBox = styled.div`
     border-left: 3px solid var(--primary-color);
 `;
 
-const JobTitle = styled.h2`
+const JobTitleSection = styled.h2`
     font-size: 1.5rem;
     font-weight: 700;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    column-gap: 0.5rem;
 `;
 
 const JobDescription = styled.p`
@@ -259,6 +263,10 @@ const JobDescription = styled.p`
     padding-right: 0.5rem;
 `;
 
+const IconWrapper = styled.div`
+    width: 35px;
+    height: 35px;
+`;
 
 export {
   PortfolioContainer,
@@ -287,6 +295,7 @@ export {
   ExperienceItem,
   TimeLineBox,
   AboutExpBox,
-  JobTitle,
-  JobDescription
+  JobTitleSection,
+  JobDescription,
+  IconWrapper
 };
