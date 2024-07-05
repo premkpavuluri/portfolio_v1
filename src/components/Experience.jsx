@@ -1,7 +1,7 @@
 import React from "react";
 import {ExperienceBox, TitleSection} from "../styles/PortfolioComponents";
 import ExperienceCard from "./ExperienceCard";
-import {config} from "../config/Config";
+import {config, sectionLabels} from "../config/Config";
 
 const Experience = ({id}) => {
   const {myExperience} = config;
@@ -10,7 +10,7 @@ const Experience = ({id}) => {
   });
 
   return (<ExperienceBox id={id}>
-    <TitleSection>Experience</TitleSection>
+    <TitleSection>{sectionLabels.EXPERIENCE}</TitleSection>
     {expItems}
   </ExperienceBox>);
 }

@@ -159,7 +159,7 @@ const SkillsCard = styled.div`
 
 const TitleSection = styled.div`
     font-size: 2rem;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 2rem;
     color: var(--text-color);
 `;
@@ -241,6 +241,8 @@ const AboutExpBox = styled.div`
     width: 85%;
     flex-direction: column;
     row-gap: 1rem;
+    padding: 1rem;
+    border-left: 3px solid var(--primary-color);
 `;
 
 const JobTitle = styled.h2`
