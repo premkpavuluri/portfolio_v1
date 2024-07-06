@@ -265,10 +265,12 @@ const ProjectWallpaper = styled.img`
     margin: 0.6rem;
     transition: 0.5s;
     border-radius: 0.2rem;
+    border: 1px solid var(--secondary-color);
 
     &:hover {
-        box-shadow: 0 0 10px 0 var(--secondary-color);
+        box-shadow: 0 0 12px 0 var(--secondary-color);
         transition: 0.5s;
+        transform: scale(1.01);
     }
 `;
 
