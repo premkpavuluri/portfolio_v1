@@ -1,11 +1,12 @@
 # :::TODO:::
-* [ ] Build Skills section
-  * [ ] Build Skills Cards
-  * [ ] Download all the logos of the skills
-  * [ ] Add Hover Effects
-* [ ] Build Experience section
-  * [ ] Build Timeline 
-  * [ ] Experiments with the timeline
+* [x] Build Skills section
+  * [x] Build Skills Cards
+  * [x] Download all the logos of the skills
+  * [x] Add Hover Effects
+* [x] Build Experience section
+  * [x] Build Timeline 
+  * [x] Experiments with the timeline
+  * [x] Add experience cards
 * [ ] Build Projects section
     * [ ] Build Project Cards
     * [ ] Add Hover Effects
