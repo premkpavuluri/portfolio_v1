@@ -86,6 +86,35 @@ const config = {
       to: '2023'
     }
   ],
+  myProjects: [
+    {
+      title: 'Cluedo - Board game',
+      description: 'An interesting detective board game. I have developed this board game as part of project simulation in the STEP internship',
+      img: 'assets/images/cluedo.png',
+      links: {
+        sourceCode: 'https://github.com/premkpavuluri/cluedo-karamchand',
+        site: 'https://cluedo-karamchand.onrender.com/game'
+      }
+    },
+    {
+      title: 'Personal Portfolio',
+      description: 'A personal Portfolio Where, I want to showcase my skills and work. I have build this using ReactJs',
+      img: 'assets/images/portfolio.png',
+      links: {
+        sourceCode: 'https://github.com/premkpavuluri/portfolio',
+        site: ''
+      }
+    },
+    {
+      title: 'Todo Manager App',
+      description: 'An application used to make todo items and follow up daily tasks. This is one of pet project post learning ReactJs.',
+      img: 'assets/images/todoApp.png',
+      links: {
+        sourceCode: 'https://github.com/premkpavuluri/todo_app_react',
+        site: 'https://mytodoapp-qsfm.onrender.com/'
+      }
+    }
+  ]
 };
 
 export {config, sectionLabels};

@@ -258,6 +258,78 @@ const IconWrapper = styled.div`
     height: 35px;
 `;
 
+const ProjectWallpaper = styled.img`
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin: 0.6rem;
+    transition: 0.5s;
+    border-radius: 0.2rem;
+
+    &:hover {
+        box-shadow: 0 0 10px 0 var(--secondary-color);
+        transition: 0.5s;
+    }
+`;
+
+const ProjectContainer = styled.div`
+    background-color: var(--primary-background-color);
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    margin: 0.5rem;
+    display: flex;
+    column-gap: 1.5rem;
+    align-items: flex-start;
+    border-radius: 0.2rem;
+`;
+
+const ProjectInfoBox = styled.div`
+    width: 50%;
+    height: 290px;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+`;
+
+const ProjectTitle = styled.div`
+    display: block;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-align: center;
+    margin-bottom: 0.6rem;
+`;
+
+const ProjectDescription = styled.div`
+    display: block;
+    font-size: 1.2rem;
+    height: 200px;
+`;
+
+const ViewBtn = styled.a`
+    text-decoration: none;
+    color: var(--text-color);
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.5rem;
+    transition: 0.5s;
+    border: 1px solid var(--secondary-color);
+
+    &:hover {
+        background-color: var(--primary-color);
+        cursor: pointer;
+        transition: 0.5s;
+    }
+`;
+
+const ViewLinks = styled.div`
+    display: flex;
+    align-content: space-between;
+    column-gap: 1rem;
+`;
+
 export {
   PortfolioContainer,
   HeaderBox,
@@ -286,5 +358,12 @@ export {
   JobTitleSection,
   JobDescription,
   IconWrapper,
-  SectionWrapper
+  SectionWrapper,
+  ProjectWallpaper,
+  ProjectContainer,
+  ProjectInfoBox,
+  ProjectTitle,
+  ProjectDescription,
+  ViewBtn,
+  ViewLinks
 };
