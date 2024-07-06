@@ -10,7 +10,7 @@ import {
 } from "../styles/PortfolioComponents";
 import Location from "./Location";
 import {config} from "../config/Config";
-import aboutIcon from "../assets/about.png";
+import aboutIcon from "assets/icons/about.png";
 
 const About = ({id}) => {
   const {city, aboutMe, profilePic} = config;

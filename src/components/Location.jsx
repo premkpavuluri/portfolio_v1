@@ -1,5 +1,5 @@
 import {LocationBox, LocationIcon, LocationText} from "../styles/PortfolioComponents";
-import location from "../assets/location.png";
+import location from "assets/icons/location.png";
 import React from "react";
 
 const Location = ({city}) => {

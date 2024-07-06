@@ -1,18 +1,18 @@
 import {useEffect, useState} from 'react';
-import {ReactComponent as JavascriptIcon} from '../assets/javascript.svg';
-import {ReactComponent as BashIcon} from '../assets/bash.svg';
-import {ReactComponent as NodeJsIcon} from '../assets/nodejs.svg';
-import {ReactComponent as HTMLIcon} from '../assets/html.svg';
-import {ReactComponent as CSSIcon} from '../assets/css.svg';
-import {ReactComponent as JavaIcon} from '../assets/java.svg';
-import {ReactComponent as KotlinIcon} from '../assets/kotlin.svg';
-import {ReactComponent as PythonIcon} from '../assets/python.svg';
-import {ReactComponent as ReactJsIcon} from '../assets/reactjs.svg';
-import {ReactComponent as SpringIcon} from '../assets/spring.svg';
-import {ReactComponent as DockerIcon} from "../assets/docker.svg";
-import {ReactComponent as MongoDBIcon} from "../assets/mongodb.svg";
-import {ReactComponent as IconNotFound} from "../assets/404Icon.svg";
-import {ReactComponent as CompanyIcon} from "../assets/company.svg";
+import {ReactComponent as JavascriptIcon} from 'assets/icons/javascript.svg';
+import {ReactComponent as BashIcon} from 'assets/icons/bash.svg';
+import {ReactComponent as NodeJsIcon} from 'assets/icons/nodejs.svg';
+import {ReactComponent as HTMLIcon} from 'assets/icons/html.svg';
+import {ReactComponent as CSSIcon} from 'assets/icons/css.svg';
+import {ReactComponent as JavaIcon} from 'assets/icons/java.svg';
+import {ReactComponent as KotlinIcon} from 'assets/icons/kotlin.svg';
+import {ReactComponent as PythonIcon} from 'assets/icons/python.svg';
+import {ReactComponent as ReactJsIcon} from 'assets/icons/reactjs.svg';
+import {ReactComponent as SpringIcon} from 'assets/icons/spring.svg';
+import {ReactComponent as DockerIcon} from "assets/icons/docker.svg";
+import {ReactComponent as MongoDBIcon} from "assets/icons/mongodb.svg";
+import {ReactComponent as IconNotFound} from "assets/icons/404Icon.svg";
+import {ReactComponent as CompanyIcon} from "assets/icons/company.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
