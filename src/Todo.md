@@ -24,6 +24,10 @@
 * [ ] Add a toggle button to switch between modes
   * [ ] Add a dark mode
   * [ ] Add a light mode
+* [ ] Update the content in teh page
+  * [ ] About section content
+  * [ ] Experience section content
+  * [ ] Projects info
 * [ ] Update the Readme file and provide prod link
 * [ ] Setup eslint for the project
 * [ ] Add loader while fetching profile picture
