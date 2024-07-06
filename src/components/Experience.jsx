@@ -1,5 +1,5 @@
 import React from "react";
-import {ExperienceBox, TitleSection} from "../styles/PortfolioComponents";
+import {SectionWrapper, TitleSection} from "../styles/PortfolioComponents";
 import ExperienceCard from "./ExperienceCard";
 import {config, sectionLabels} from "../config/Config";
 
@@ -9,10 +9,10 @@ const Experience = ({id}) => {
     return <ExperienceCard role={role} company={company} desc={description} from={from} to={to}/>
   });
 
-  return (<ExperienceBox id={id}>
+  return (<SectionWrapper id={id}>
     <TitleSection>{sectionLabels.EXPERIENCE}</TitleSection>
     {expItems}
-  </ExperienceBox>);
+  </SectionWrapper>);
 }
 
 export default Experience;

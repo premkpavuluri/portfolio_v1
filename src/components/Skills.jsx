@@ -1,5 +1,5 @@
 import React from "react";
-import {SkillsCard, SkillsContainer, TitleSection} from "../styles/PortfolioComponents";
+import {SectionWrapper, SkillsContainer, TitleSection} from "../styles/PortfolioComponents";
 import SkillCard from "./SkillCard";
 import {config, sectionLabels} from "../config/Config";
 
@@ -13,12 +13,12 @@ const Skills = ({id}) => {
     />
   });
 
-  return (<SkillsCard id={id}>
+  return (<SectionWrapper id={id}>
     <TitleSection>{sectionLabels.SKILLS}</TitleSection>
     <SkillsContainer>
       {skillCards}
     </SkillsContainer>
-  </SkillsCard>);
+  </SectionWrapper>);
 }
 
 export default Skills;

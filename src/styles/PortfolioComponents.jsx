@@ -68,6 +68,18 @@ const Main = styled.main`
     width: 100%;
 `;
 
+const SectionWrapper = styled.div`
+    color: var(--text-color);
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+`;
+
 const AboutCard = styled.div`
     color: var(--text-color);
     width: 70%;
@@ -147,18 +159,6 @@ const AboutIcon = styled.img`
     margin-right: 0.5em;
 `;
 
-const SkillsCard = styled.div`
-    color: var(--text-color);
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5rem;
-`;
-
 const TitleSection = styled.div`
     font-size: 2rem;
     font-weight: 500;
@@ -207,18 +207,6 @@ const SkillIcon = styled.div`
     aspect-ratio: 1;
     padding: 0.8rem;
     margin: 0 auto;
-`;
-
-const ExperienceBox = styled.div`
-    color: var(--text-color);
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-top: 5rem;
 `;
 
 const ExperienceItem = styled.div`
@@ -287,17 +275,16 @@ export {
   Description,
   AboutIcon,
   ProfilePic,
-  SkillsCard,
   TitleSection,
   SkillsContainer,
   Skill,
   SkillName,
   SkillIcon,
-  ExperienceBox,
   ExperienceItem,
   TimeLineBox,
   AboutExpBox,
   JobTitleSection,
   JobDescription,
-  IconWrapper
+  IconWrapper,
+  SectionWrapper
 };
