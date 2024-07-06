@@ -101,7 +101,7 @@ const config = {
       description: 'A personal Portfolio Where, I want to showcase my skills and work. I have build this using ReactJs',
       imgName: 'portfolio.png',
       links: {
-        sourceCode: 'https://github.com/premkpavuluri/portfolio',
+        sourceCode: 'https://github.com/premkpavuluri/portfolio_v1',
         site: ''
       }
     },
