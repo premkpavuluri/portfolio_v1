@@ -261,10 +261,11 @@ const IconWrapper = styled.div`
 const ProjectWallpaper = styled.img`
     display: block;
     width: 50%;
-    height: 100%;
+    height: 300px;
     margin: 0.6rem;
     transition: 0.5s;
     border-radius: 0.2rem;
+    aspect-ratio: 1;
     border: 1px solid var(--secondary-color);
 
     &:hover {
