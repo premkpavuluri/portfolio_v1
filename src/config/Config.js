@@ -74,7 +74,7 @@ const config = {
     {
       company: 'ThoughtWorks',
       role: 'Full Stack Developer',
-      description: "I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications.I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications. I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications.",
+      description: "I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications. \n I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications. I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications.",
       from: '2023',
       to: 'Present'
     },

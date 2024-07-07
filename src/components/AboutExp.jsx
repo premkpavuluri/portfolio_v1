@@ -1,6 +1,7 @@
 import React from "react";
-import {AboutExpBox, IconWrapper, JobDescription, JobTitleSection} from "../styles/PortfolioComponents";
+import {AboutExpBox, IconWrapper, JobTitleSection} from "../styles/PortfolioComponents";
 import Icon from "./Icon";
+import JobDesc from "./JobDesc";
 
 const AboutExp = ({role, company, desc}) => {
   return (<AboutExpBox>
@@ -9,7 +10,7 @@ const AboutExp = ({role, company, desc}) => {
           <IconWrapper><Icon name="company"/></IconWrapper>
           {role} @ {company}
         </JobTitleSection>)}
-      <JobDescription>{desc}</JobDescription>
+      <JobDesc description={desc}/>
     </AboutExpBox>
   )
 }
