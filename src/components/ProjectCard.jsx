@@ -16,7 +16,7 @@ const ProjectCard = ({title, description, img, links}) => {
 
   return (
     <ProjectContainer>
-      <ProjectWallpaper src={wallpaper} target="_blank" alt={`${img}_image`}/>
+      <ProjectWallpaper src={wallpaper} alt={`${img}_image`}/>
       <ProjectInfo title={title} description={description} links={links}/>
     </ProjectContainer>)
 }
