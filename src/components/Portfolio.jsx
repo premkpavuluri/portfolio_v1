@@ -7,6 +7,7 @@ import Experience from "./Experience";
 import Projects from "./Projects";
 import Contact from "./Contact";
 import {config} from "../config/Config";
+import Footer from "./Footer";
 
 const Portfolio = () => {
   const {sections} = config;
@@ -30,6 +31,7 @@ const Portfolio = () => {
       <Projects id={sections[3].id}/>
       <Contact id={sections[4].id}/>
     </Main>
+    <Footer/>
   </PortfolioContainer>);
 }
 

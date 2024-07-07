@@ -1,10 +1,11 @@
 import React from "react";
+import {SectionWrapper} from "../styles/PortfolioComponents";
 
 const Contact = ({id}) => {
-  return (<div className={"section"} id={id}>
+  return (<SectionWrapper id={id}>
     <h1>Contact</h1>
     <p>Email:<a href="mailto:premkumarpavuluri@gmail.com">Email</a></p>
-  </div>);
+  </SectionWrapper>);
 }
 
 export default Contact;

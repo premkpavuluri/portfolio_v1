@@ -333,6 +333,32 @@ const ViewLinks = styled.div`
     column-gap: 1rem;
 `;
 
+const FooterSection = styled.footer`
+    background-color: var(--secondary-background-color);
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+`;
+
+const CopyRights = styled.p`
+    color: var(--text-color);
+    font-size: 1rem;
+    margin: 0.5rem;
+`;
+
+const SymbolStyles = styled.span`
+    position: static;
+    width: 20px;
+    height: 20px;
+    
+    &:hover {
+        cursor: pointer;
+        text-shadow: 0 0 10px white;
+    }
+`;
+
 export {
   PortfolioContainer,
   HeaderBox,
@@ -368,5 +394,8 @@ export {
   ProjectTitle,
   ProjectDescription,
   ViewBtn,
-  ViewLinks
+  ViewLinks,
+  FooterSection,
+  CopyRights,
+  SymbolStyles
 };
