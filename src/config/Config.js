@@ -114,7 +114,8 @@ const config = {
         site: 'https://mytodoapp-qsfm.onrender.com/'
       }
     }
-  ]
+  ],
+  copyRightYear: '2024',
 };
 
 export {config, sectionLabels};

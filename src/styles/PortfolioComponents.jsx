@@ -335,11 +335,13 @@ const ViewLinks = styled.div`
 
 const FooterSection = styled.footer`
     background-color: var(--secondary-background-color);
-    display: block;
     width: 100%;
-    padding: 1rem;
-    margin-top: 1rem;
-    text-align: center;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 `;
 
 const CopyRights = styled.p`
