@@ -16,6 +16,7 @@ const config = {
     {id: 'contact-id', title: sectionLabels.CONTACT}
   ],
   myName: 'Prem Kumar',
+  emailId: 'premkumarpavuluri@gmail.com',
   city: 'Andhra Pradesh, India',
   aboutMe: `I am a full-stack web developer. I enjoy working on projects that challenge me to grow.`,
   profilePic: 'https://avatars.githubusercontent.com/u/52355836?v=4',

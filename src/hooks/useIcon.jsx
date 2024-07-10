@@ -13,6 +13,7 @@ import {ReactComponent as DockerIcon} from "assets/icons/docker.svg";
 import {ReactComponent as MongoDBIcon} from "assets/icons/mongodb.svg";
 import {ReactComponent as IconNotFound} from "assets/icons/404Icon.svg";
 import {ReactComponent as CompanyIcon} from "assets/icons/company.svg";
+import {ReactComponent as EmailIcon} from "assets/icons/email.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
@@ -28,6 +29,7 @@ const iconComponents = {
   'docker': DockerIcon,
   'mongodb': MongoDBIcon,
   'company': CompanyIcon,
+  'email': EmailIcon,
   'default': IconNotFound
 };
 

@@ -80,6 +80,10 @@ const SectionWrapper = styled.div`
     justify-content: center;
 `;
 
+const ContactSectionWrapper = styled(SectionWrapper)`
+  padding-top: 2rem;
+`;
+
 const AboutCard = styled.div`
     color: var(--text-color);
     width: 70%;
@@ -399,5 +403,6 @@ export {
   ViewLinks,
   FooterSection,
   CopyRights,
-  SymbolStyles
+  SymbolStyles,
+  ContactSectionWrapper
 };
