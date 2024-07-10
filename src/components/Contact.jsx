@@ -13,13 +13,13 @@ const ContactInfoWrapper = styled.div`
     align-items: center;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
-    padding: 1rem;
 `;
 
 const Info = styled.div`
     color: var(--text-color);
     font-size: 1.2rem;
-    padding: 0.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
 `;
 
 const EmailSection = styled.div`
@@ -43,6 +43,42 @@ const Email = styled.a`
     padding: 0.5rem;
 `;
 
+const SocialMedia = styled.div`
+    width: 100%;
+    color: var(--text-color);
+    background-color: var(--secondary-background-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+`;
+
+const SocialMediaIcon = styled.a`
+    text-decoration: none;
+    color: var(--text-color);
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    margin: 0.5rem;
+    
+    &:hover {
+        background-color: var(--primary-color);
+    }
+`;
+
+
+const SocialMediaSection = () => {
+  return (<SocialMedia>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon name={"github"}/></SocialMediaIcon>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon name={"instagram"}/></SocialMediaIcon>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon name={"linkedin"}/></SocialMediaIcon>
+  </SocialMedia>);
+};
+
 const Contact = ({id}) => {
   const {emailId} = config;
   return (<ContactSectionWrapper id={id}>
@@ -53,6 +89,8 @@ const Contact = ({id}) => {
         <EmailIconWrapper><Icon name={"email"}/></EmailIconWrapper>
         <Email href={`mailto:${emailId}`}>{emailId}</Email>
       </EmailSection>
+      <Info>connect with me on</Info>
+      <SocialMediaSection/>
     </ContactInfoWrapper>
   </ContactSectionWrapper>);
 }

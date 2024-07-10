@@ -81,7 +81,7 @@ const SectionWrapper = styled.div`
 `;
 
 const ContactSectionWrapper = styled(SectionWrapper)`
-  padding-top: 2rem;
+    padding-top: 2rem;
 `;
 
 const AboutCard = styled.div`

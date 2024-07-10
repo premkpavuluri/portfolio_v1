@@ -14,6 +14,9 @@ import {ReactComponent as MongoDBIcon} from "assets/icons/mongodb.svg";
 import {ReactComponent as IconNotFound} from "assets/icons/404Icon.svg";
 import {ReactComponent as CompanyIcon} from "assets/icons/company.svg";
 import {ReactComponent as EmailIcon} from "assets/icons/email.svg";
+import {ReactComponent as GitHubIcon} from "assets/icons/github.svg";
+import {ReactComponent as LinkedInIcon} from "assets/icons/linkedin.svg";
+import {ReactComponent as InstagramIcon} from "assets/icons/instagram.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
@@ -30,6 +33,9 @@ const iconComponents = {
   'mongodb': MongoDBIcon,
   'company': CompanyIcon,
   'email': EmailIcon,
+  'github': GitHubIcon,
+  'instagram': InstagramIcon,
+  'linkedin': LinkedInIcon,
   'default': IconNotFound
 };
 
@@ -44,7 +50,7 @@ const useIcon = (name) => {
     setSvgIcon(() => icon);
   }, [name]);
 
-  return { SvgIcon };
+  return {SvgIcon};
 };
 
 export default useIcon;
