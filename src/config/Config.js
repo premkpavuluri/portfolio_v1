@@ -116,6 +116,28 @@ const config = {
       }
     }
   ],
+  socialMedia: [
+    {
+      name: 'github',
+      url: 'https://github.com/premkpavuluri'
+    },
+    {
+      name: 'linkedin',
+      url: 'https://github.com/premkpavuluri'
+    },
+    {
+      name: 'instagram',
+      url: 'https://github.com/premkpavuluri'
+    },
+    {
+      name: 'facebook',
+      url: 'https://github.com/premkpavuluri'
+    },
+    {
+      name: 'twitter',
+      url: 'https://github.com/premkpavuluri'
+    }
+  ],
   copyRightYear: '2024',
 };
 

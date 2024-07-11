@@ -365,6 +365,72 @@ const SymbolStyles = styled.span`
     }
 `;
 
+const ContactInfoWrapper = styled.div`
+    background-color: var(--primary-background-color);
+    color: var(--text-color);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+`;
+
+const Info = styled.div`
+    color: var(--text-color);
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 0.5rem;
+`;
+
+const EmailSection = styled.div`
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+`;
+
+const EmailIconWrapper = styled.div`
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+`;
+
+const Email = styled.a`
+    text-decoration: none;
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+`;
+
+const SocialMedia = styled.div`
+    width: 100%;
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem;
+`;
+
+const SocialMediaIcon = styled.a`
+    text-decoration: none;
+    color: var(--text-color);
+    width: 2.5rem;
+    height: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+    margin: 0.5rem;
+
+    &:hover {
+        background-color: var(--primary-color);
+    }
+`;
+
 export {
   PortfolioContainer,
   HeaderBox,
@@ -404,5 +470,12 @@ export {
   FooterSection,
   CopyRights,
   SymbolStyles,
-  ContactSectionWrapper
+  ContactSectionWrapper,
+  ContactInfoWrapper,
+  Info,
+  Email,
+  EmailSection,
+  EmailIconWrapper,
+  SocialMedia,
+  SocialMediaIcon
 };
