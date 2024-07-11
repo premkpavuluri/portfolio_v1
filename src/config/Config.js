@@ -123,19 +123,19 @@ const config = {
     },
     {
       name: 'linkedin',
-      url: 'https://github.com/premkpavuluri'
+      url: 'https://www.linkedin.com/in/pavuluri-prem-kumar-a20381191/'
     },
     {
       name: 'instagram',
-      url: 'https://github.com/premkpavuluri'
+      url: 'https://www.instagram.com/_prem_9_1_6__?igsh=MWhpaG50eDIyYWloOQ=='
     },
     {
       name: 'facebook',
-      url: 'https://github.com/premkpavuluri'
+      url: 'https://www.facebook.com/prem.bobby.397?mibextid=ZbWKwL'
     },
     {
       name: 'twitter',
-      url: 'https://github.com/premkpavuluri'
+      url: 'https://x.com/PremPavuluri'
     }
   ],
   copyRightYear: '2024',
