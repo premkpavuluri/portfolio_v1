@@ -27,12 +27,12 @@ const NavBtn = styled.div`
     height: 100%;
     padding: 1rem;
     text-align: center;
-    transition: 0.5s;
+    transition: 0.9s;
 
     &:hover {
         background-color: var(--primary-color);
         cursor: pointer;
-        transition: 0.5s;
+        transition: 0.9s;
     }
 `;
 
