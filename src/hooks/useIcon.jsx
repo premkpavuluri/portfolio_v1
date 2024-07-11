@@ -17,6 +17,8 @@ import {ReactComponent as EmailIcon} from "assets/icons/email.svg";
 import {ReactComponent as GitHubIcon} from "assets/icons/github.svg";
 import {ReactComponent as LinkedInIcon} from "assets/icons/linkedin.svg";
 import {ReactComponent as InstagramIcon} from "assets/icons/instagram.svg";
+import {ReactComponent as FacebookIcon} from "assets/icons/facebook.svg";
+import {ReactComponent as TwitterIcon} from "assets/icons/twitter.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
@@ -36,6 +38,8 @@ const iconComponents = {
   'github': GitHubIcon,
   'instagram': InstagramIcon,
   'linkedin': LinkedInIcon,
+  'facebook': FacebookIcon,
+  'twitter': TwitterIcon,
   'default': IconNotFound
 };
 

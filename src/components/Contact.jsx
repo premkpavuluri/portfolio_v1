@@ -46,25 +46,25 @@ const Email = styled.a`
 const SocialMedia = styled.div`
     width: 100%;
     color: var(--text-color);
-    background-color: var(--secondary-background-color);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    padding: 1rem;
 `;
 
 const SocialMediaIcon = styled.a`
     text-decoration: none;
     color: var(--text-color);
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
     overflow: hidden;
     transition-duration: .3s;
     margin: 0.5rem;
-    
+
     &:hover {
         background-color: var(--primary-color);
     }
@@ -73,9 +73,16 @@ const SocialMediaIcon = styled.a`
 
 const SocialMediaSection = () => {
   return (<SocialMedia>
-    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon name={"github"}/></SocialMediaIcon>
-    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon name={"instagram"}/></SocialMediaIcon>
-    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon name={"linkedin"}/></SocialMediaIcon>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon
+      name={"github"}/></SocialMediaIcon>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon
+      name={"linkedin"}/></SocialMediaIcon>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon
+      name={"instagram"}/></SocialMediaIcon>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon
+      name={"facebook"}/></SocialMediaIcon>
+    <SocialMediaIcon href={"https://github.com/premkpavuluri"} target={"_blank"}><Icon
+      name={"twitter"}/></SocialMediaIcon>
   </SocialMedia>);
 };
 
@@ -89,7 +96,7 @@ const Contact = ({id}) => {
         <EmailIconWrapper><Icon name={"email"}/></EmailIconWrapper>
         <Email href={`mailto:${emailId}`}>{emailId}</Email>
       </EmailSection>
-      <Info>connect with me on</Info>
+      <Info>want to know more?</Info>
       <SocialMediaSection/>
     </ContactInfoWrapper>
   </ContactSectionWrapper>);
