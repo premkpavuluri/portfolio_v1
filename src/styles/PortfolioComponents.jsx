@@ -423,11 +423,13 @@ const SocialMediaIcon = styled.a`
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    transition-duration: .3s;
+    transition-duration: .5s;
     margin: 0.5rem;
 
     &:hover {
         background-color: var(--primary-color);
+        transition-duration: .5s;
+        transform: scale(1.09);
     }
 `;
 
