@@ -18,7 +18,7 @@ const config = {
   myName: 'Prem Kumar',
   emailId: 'premkumarpavuluri@gmail.com',
   city: 'Andhra Pradesh, India',
-  aboutMe: `I am a full-stack web developer. I enjoy working on projects that challenge me to grow.`,
+  aboutMe: `I am a Full-Stack Developer. I love working on projects and problems that challenge me to grow. `,
   profilePic: 'https://avatars.githubusercontent.com/u/52355836?v=4',
   skills: [
     {
@@ -75,22 +75,23 @@ const config = {
     {
       company: 'ThoughtWorks',
       role: 'Full Stack Developer',
-      description: "I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications. \n I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications. I'm working as a web developer at ThoughtWorks where I was responsible for building and maintaining web applications.",
+      description: "I'm working as a Application developer at ThoughtWorks. I'm responsible for analysing requirements, developing, testing, deploying and maintaining the web applications.\n \nCurrently, I'm working on various technologies like ReactJs, Kotlin, SpringBoot, MongoDB, Docker, Kubernetes etc.",
       from: '2023',
       to: 'Present'
     },
     {
       company: 'ThoughtWorks',
       role: 'Intern',
-      description: "I worked as an intern at ThoughtWorks where I was responsible for building and maintaining web applications.",
+      description: "I've joined as a STEP intern in ThoughtWorks. STEP is an intensive entry level program in ThoughtWorks Where \"We Work While Learning\". \n \nHere I got to learn various technologies, best practices, principles and apply them on real time projects. I got a chance to learn from multiple Industry experts, They helped me to build a strong foundation for my career in the IT industry.",
       from: '2021',
       to: '2023'
     }
   ],
   myProjects: [
     {
-      title: 'Cluedo - Board game',
-      description: 'An interesting detective board game. I have developed this board game as part of project simulation in the STEP internship',
+      title: 'Cluedo - Board Game',
+      description: '\tCluedo is a murder mystery game, and you are a detective attempting to solve a murder in a mansion. Mr.Boddy has been murdered, there are 6 suspects, 6 weapons and 9 rooms, and You have to find out the murderer. \n' +
+        '\n \n \tI have build this game along with my batch-mates as part of the project simulation in the STEP internship',
       imgName: 'cluedo.png',
       links: {
         sourceCode: 'https://github.com/premkpavuluri/cluedo-karamchand',
@@ -99,7 +100,7 @@ const config = {
     },
     {
       title: 'Personal Portfolio',
-      description: 'A personal Portfolio Where, I want to showcase my skills and work. I have build this using ReactJs',
+      description: '\tA personal Portfolio Website, Where I want to showcase my skills, projects and experience. \n \n \tI have designed this website using Figma and build using ReactJS.',
       imgName: 'portfolio.png',
       links: {
         sourceCode: 'https://github.com/premkpavuluri/portfolio_v1',
@@ -108,7 +109,7 @@ const config = {
     },
     {
       title: 'Todo Manager App',
-      description: 'An application used to make todo items and follow up daily tasks. This is one of pet project post learning ReactJs.',
+      description: '\tA simple todo application used to create your own todo items and follow up on them. \n \n \tThis is one of my pet projects post learning ReactJS. I build to explore ReactJS features like useState, useEffect, reducers, context..etc',
       imgName: 'todoApp.png',
       links: {
         sourceCode: 'https://github.com/premkpavuluri/todo_app_react',

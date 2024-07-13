@@ -3,10 +3,6 @@
 * [ ] Add a toggle button to switch between modes
   * [ ] Add a dark mode
   * [ ] Add a light mode
-* [ ] Update the content in the page
-  * [ ] About section content
-  * [ ] Experience section content
-  * [ ] Projects info
 * [ ] Update the Readme file and provide prod link
 * [ ] Setup eslint for the project
 * [ ] Add loader while fetching profile picture
@@ -17,6 +13,10 @@
   * [ ] Desktop view
 
 # :::DONE:::
+* [x] Update the content in the page
+  * [x] About section content
+  * [x] Experience section content
+  * [x] Projects info
 * [x] Rename the Website name with Prem Kumar
 * [x] Extract all the constants in a separate file(config.js)
 * [x] Build Skills section

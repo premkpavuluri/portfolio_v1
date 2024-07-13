@@ -9,11 +9,14 @@ import {
 
 const ProjectInfo = ({title, description, links: {sourceCode, site}}) => {
   const target = site === "" ? "_self" : "_blank";
+  const descLines = description
+    .split('\n')
+    .map((line, index) => <p key={index} style={{whiteSpace: 'pre-wrap'}}>{line}</p>);
 
   return (
     <ProjectInfoBox>
       <ProjectTitle>{title}</ProjectTitle>
-      <ProjectDescription>{description}</ProjectDescription>
+      <ProjectDescription>{descLines}</ProjectDescription>
       <ViewLinks>
         <ViewBtn href={site} target={target}>View Site</ViewBtn>
         <ViewBtn href={sourceCode} target="_blank">View Source code</ViewBtn>
