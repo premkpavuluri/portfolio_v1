@@ -11,13 +11,13 @@
 * [ ] Setup eslint for the project
 * [ ] Add loader while fetching profile picture
 * [ ] Add favicon to the website with pk logo
-* [ ] Rename the Website name with Prem Kumar
 * [ ] Make the website responsive
   * [ ] Mobile view
   * [ ] Tablet view
   * [ ] Desktop view
 
 # :::DONE:::
+* [x] Rename the Website name with Prem Kumar
 * [x] Extract all the constants in a separate file(config.js)
 * [x] Build Skills section
   * [x] Build Skills Cards
