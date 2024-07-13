@@ -1,10 +1,10 @@
 import {LocationBox, LocationIcon, LocationText} from "../styles/PortfolioComponents";
-import location from "assets/icons/location.png";
 import React from "react";
+import Icon from "./Icon";
 
 const Location = ({city}) => {
   return (<LocationBox>
-    <LocationIcon src={location} alt={"Location icon"}/>
+    <LocationIcon><Icon name={"location"}/></LocationIcon>
     <LocationText>{city}</LocationText>
   </LocationBox>);
 }

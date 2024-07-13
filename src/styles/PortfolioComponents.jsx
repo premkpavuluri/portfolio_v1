@@ -140,9 +140,9 @@ const LocationBox = styled.div`
     align-items: center;
 `;
 
-const LocationIcon = styled.img`
-    width: 1.7em;
-    height: 1.7rem;
+const LocationIcon = styled.span`
+    width: 1.5rem;
+    height: 1.5rem;
 `;
 
 const LocationText = styled.p`
@@ -157,9 +157,9 @@ const Description = styled.div`
     align-items: flex-start;
 `;
 
-const AboutIcon = styled.img`
-    width: 1.7em;
-    height: 1.9rem;
+const AboutIcon = styled.span`
+    width: 1.5em;
+    height: 1.5rem;
     margin-right: 0.5em;
 `;
 

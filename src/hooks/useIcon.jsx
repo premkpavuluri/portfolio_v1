@@ -19,6 +19,8 @@ import {ReactComponent as LinkedInIcon} from "assets/icons/linkedin.svg";
 import {ReactComponent as InstagramIcon} from "assets/icons/instagram.svg";
 import {ReactComponent as FacebookIcon} from "assets/icons/facebook.svg";
 import {ReactComponent as TwitterIcon} from "assets/icons/twitter.svg";
+import {ReactComponent as LocationIcon} from "assets/icons/location.svg";
+import {ReactComponent as AboutIcon} from "assets/icons/about.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
@@ -40,6 +42,8 @@ const iconComponents = {
   'linkedin': LinkedInIcon,
   'facebook': FacebookIcon,
   'twitter': TwitterIcon,
+  'location': LocationIcon,
+  'about': AboutIcon,
   'default': IconNotFound
 };
 

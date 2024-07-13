@@ -10,7 +10,7 @@ import {
 } from "../styles/PortfolioComponents";
 import Location from "./Location";
 import {config} from "../config/Config";
-import aboutIcon from "assets/icons/about.png";
+import Icon from "./Icon";
 
 const About = ({id}) => {
   const {city, aboutMe, profilePic} = config;
@@ -20,7 +20,9 @@ const About = ({id}) => {
       <DPBox><ProfilePic src={profilePic} alt="Profile"/></DPBox>
       <DescriptionBox>
         <Location city={city}></Location>
-        <Description><AboutIcon src={aboutIcon}></AboutIcon>{aboutMe}</Description>
+        <Description>
+          <AboutIcon><Icon name={"about"}/></AboutIcon>
+          {aboutMe}</Description>
       </DescriptionBox>
     </BgCard>
   </AboutCard>);
