@@ -113,7 +113,7 @@ const config = {
       imgName: 'todoApp.png',
       links: {
         sourceCode: 'https://github.com/premkpavuluri/todo_app_react',
-        site: 'https://mytodoapp-qsfm.onrender.com/'
+        site: 'https://todo-app-ulgs.onrender.com/'
       }
     }
   ],
