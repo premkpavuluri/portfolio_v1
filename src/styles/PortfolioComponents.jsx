@@ -167,7 +167,7 @@ const TitleSection = styled.div`
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 2rem;
-    color: var(--text-color);
+    color: var(--heading-color);
 `;
 
 const SkillsContainer = styled.div`
