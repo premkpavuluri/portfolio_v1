@@ -9,7 +9,7 @@ const PortfolioContainer = styled.div`
     justify-content: center;
     padding: 0;
     margin: 0;
-    font-size: 16px;
+    //font-size: 16px;
     font-family: sans-serif;
     scroll-behavior: smooth;
 `
@@ -91,6 +91,10 @@ const AboutCard = styled.div`
     margin-right: auto;
     align-items: center;
     padding-top: 5rem;
+    
+    @media (max-width: 1024px) {
+        width: 90%;
+    }
 `;
 
 const BgCard = styled.div`
@@ -104,6 +108,12 @@ const BgCard = styled.div`
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+
+    @media (max-width: 1024px) {
+        flex-direction: column;
+        row-gap: 1em;
+        align-items: flex-start;
+    }
 `;
 
 const DPBox = styled.div`
@@ -113,6 +123,12 @@ const DPBox = styled.div`
     border-radius: 50%;
     aspect-ratio: 1;
     margin: 0 auto;
+    
+    @media (max-width: 480px) {
+        border-radius: 1%;
+        width: 200px;
+        height: 200px;
+    }
 `;
 
 const ProfilePic = styled.img`
@@ -122,6 +138,11 @@ const ProfilePic = styled.img`
     border-radius: 50%;
     aspect-ratio: 1;
     border: 0.2em solid var(--primary-color);
+    
+    @media (max-width: 480px) {
+        border-radius: 5%;
+        border: 0.14em solid var(--primary-color);
+    }
 `;
 
 const DescriptionBox = styled.div`
@@ -131,6 +152,10 @@ const DescriptionBox = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 1.5rem;
+    
+    @media (max-width: 1024px) {
+        width: 100%;
+    }
 `;
 
 const LocationBox = styled.div`
@@ -143,11 +168,21 @@ const LocationBox = styled.div`
 const LocationIcon = styled.span`
     width: 1.5rem;
     height: 1.5rem;
+
+    @media (max-width: 1024px) {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
 `;
 
 const LocationText = styled.p`
     margin-left: 0.5em;
     font-size: 1.5rem;
+    
+    @media (max-width: 1024px) {
+        width: max-content;
+        font-size: 1.2rem;
+    }
 `;
 
 const Description = styled.div`
@@ -155,12 +190,22 @@ const Description = styled.div`
     font-size: 1.5rem;
     justify-content: flex-start;
     align-items: flex-start;
+
+    @media (max-width: 1024px) {
+        font-size: 1.2rem;
+    }
 `;
 
 const AboutIcon = styled.span`
     width: 1.5em;
     height: 1.5rem;
     margin-right: 0.5em;
+    
+    @media (max-width: 1024px) {
+        width: max-content;
+        height: 1.2rem;
+        aspect-ratio: 1;
+    }
 `;
 
 const TitleSection = styled.div`

@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 16px;
+}
+
 :root {
     --primary-background-color: #101825;
     --secondary-background-color: #1f1f1f;
