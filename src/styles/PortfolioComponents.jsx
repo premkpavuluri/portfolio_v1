@@ -78,6 +78,14 @@ const SectionWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    @media (max-width: 1024px) {
+        width: 90%;
+    }
+    
+    @media (max-width: 480px) {
+        width: 100%;
+    }
 `;
 
 const ContactSectionWrapper = styled(SectionWrapper)`
@@ -241,6 +249,16 @@ const Skill = styled.div`
         transform: scale(1.09);
         transition: 0.5s;
         cursor: pointer;
+    }
+    
+    @media (max-width: 1024px) {
+        width: 20%;
+        height: 20%;
+    }
+    
+    @media (max-width: 480px) {
+        width: 40%;
+        height: 40%;
     }
 `;
 
