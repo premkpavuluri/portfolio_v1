@@ -82,10 +82,6 @@ const SectionWrapper = styled.div`
     @media (max-width: 1024px) {
         width: 90%;
     }
-    
-    @media (max-width: 480px) {
-        width: 100%;
-    }
 `;
 
 const ContactSectionWrapper = styled(SectionWrapper)`
@@ -286,6 +282,11 @@ const TimeLineBox = styled.div`
     width: 15%;
     display: block;
     text-align: center;
+
+    @media (max-width: 480px) {
+        width: 10%;
+        text-align: justify;
+    }
 `;
 
 const AboutExpBox = styled.div`
@@ -306,6 +307,11 @@ const JobTitleSection = styled.h2`
     align-items: flex-end;
     justify-content: flex-start;
     column-gap: 0.5rem;
+
+    @media (max-width: 480px) {
+        font-size: 1.3rem;
+        column-gap: 0.3rem;
+    }
 `;
 
 const JobDescription = styled.p`
@@ -318,6 +324,11 @@ const JobDescription = styled.p`
 const IconWrapper = styled.div`
     width: 35px;
     height: 35px;
+
+    @media (max-width: 480px) {
+        width: 50px;
+        aspect-ratio: 1;
+    }
 `;
 
 const ProjectWallpaper = styled.img`
