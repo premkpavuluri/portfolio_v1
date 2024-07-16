@@ -149,7 +149,7 @@ const ProfilePic = styled.img`
     
     @media (max-width: 480px) {
         border-radius: 5%;
-        border: 0.14em solid var(--primary-color);
+        border: 0.20em solid var(--primary-color);
     }
 `;
 
@@ -189,7 +189,6 @@ const LocationText = styled.p`
     
     @media (max-width: 1024px) {
         width: max-content;
-        font-size: 1.2rem;
     }
 `;
 
@@ -198,10 +197,6 @@ const Description = styled.div`
     font-size: 1.5rem;
     justify-content: flex-start;
     align-items: flex-start;
-
-    @media (max-width: 1024px) {
-        font-size: 1.2rem;
-    }
 `;
 
 const AboutIcon = styled.span`
