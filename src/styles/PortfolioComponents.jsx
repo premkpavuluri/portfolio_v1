@@ -340,11 +340,22 @@ const ProjectWallpaper = styled.img`
     border-radius: 0.2rem;
     aspect-ratio: 1;
     border: 1px solid var(--secondary-color);
+    object-fit: fill;
 
     &:hover {
         box-shadow: 0 0 12px 0 var(--secondary-color);
         transition: 0.5s;
         transform: scale(1.01);
+    }
+    
+    @media (max-width: 1024px) {
+        width: 55%;
+    }
+
+    @media (max-width: 480px) {
+        width: 96%;
+        height: 200px;
+        aspect-ratio: 1;
     }
 `;
 
@@ -358,6 +369,15 @@ const ProjectContainer = styled.div`
     column-gap: 1.5rem;
     align-items: flex-start;
     border-radius: 0.2rem;
+    object-fit: fill;
+
+    @media (max-width: 1024px) {
+        column-gap: 0.2rem;
+    }
+    
+    @media (max-width: 480px) {
+        flex-direction: column;
+    }
 `;
 
 const ProjectInfoBox = styled.div`
@@ -367,20 +387,41 @@ const ProjectInfoBox = styled.div`
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    @media (max-width: 1024px) {
+        width: 45%;
+    }
+    
+    @media (max-width: 480px) {
+        width: 96%;
+        padding: 1rem;
+    }
 `;
 
 const ProjectTitle = styled.div`
     display: block;
-    font-weight: 500;
-    font-size: 1.6rem;
+    font-weight: 600;
+    font-size: 1.8rem;
     text-align: center;
     margin-bottom: 0.6rem;
+    
+    @media (max-width: 1024px) {
+        font-size: 1.5rem;
+    }
 `;
 
 const ProjectDescription = styled.div`
     display: block;
     font-size: 1.2rem;
     height: 200px;
+    overflow: auto;
+    text-decoration: none;
+    scrollbar-width: thin;
+    scrollbar-color: var(--heading-color) transparent;
+    
+    @media (max-width: 1024px) {
+        font-size: 1.1rem;
+    }
 `;
 
 const ViewBtn = styled.a`
@@ -404,6 +445,11 @@ const ViewLinks = styled.div`
     display: flex;
     align-content: space-between;
     column-gap: 1rem;
+    
+    @media (max-width: 1024px) {
+        column-gap: 0.5rem;
+        width: 96%;
+    }
 `;
 
 const FooterSection = styled.footer`

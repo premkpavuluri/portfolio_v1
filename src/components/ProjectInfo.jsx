@@ -19,7 +19,7 @@ const ProjectInfo = ({title, description, links: {sourceCode, site}}) => {
       <ProjectDescription>{descLines}</ProjectDescription>
       <ViewLinks>
         <ViewBtn href={site} target={target}>View Site</ViewBtn>
-        <ViewBtn href={sourceCode} target="_blank">View Source code</ViewBtn>
+        <ViewBtn href={sourceCode} target="_blank">View Code</ViewBtn>
       </ViewLinks>
     </ProjectInfoBox>);
 }
