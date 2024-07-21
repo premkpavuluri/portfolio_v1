@@ -81,11 +81,12 @@ const SectionWrapper = styled.div`
     
     @media (max-width: 1024px) {
         width: 90%;
+        padding-top: 4rem;
     }
 `;
 
 const ContactSectionWrapper = styled(SectionWrapper)`
-    padding-top: 2rem;
+    padding-top: 3rem;
 `;
 
 const AboutCard = styled.div`
@@ -483,12 +484,17 @@ const SymbolStyles = styled.span`
 const ContactInfoWrapper = styled.div`
     background-color: var(--primary-background-color);
     color: var(--text-color);
-    width: 80%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
+    
+    @media (max-width: 480px) {
+        width: 95%;
+        padding: 0.5rem;
+    }
 `;
 
 const Info = styled.div`
@@ -496,6 +502,11 @@ const Info = styled.div`
     font-size: 1.2rem;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
+    
+    @media (max-width: 480px) {
+        font-size: 1rem;
+        padding: 0.8rem;
+    }
 `;
 
 const EmailSection = styled.div`
@@ -509,6 +520,11 @@ const EmailIconWrapper = styled.div`
     display: block;
     width: 1.5rem;
     height: 1.5rem;
+    
+    @media (max-width: 480px) {
+        width: 1.3rem;
+        height: 1.3rem;
+    }
 `;
 
 const Email = styled.a`
@@ -517,6 +533,10 @@ const Email = styled.a`
     font-size: 1.2rem;
     margin: 0.5rem;
     padding: 0.5rem;
+    
+    @media (max-width: 480px) {
+        padding: 0.3rem;
+    }
 `;
 
 const SocialMedia = styled.div`
