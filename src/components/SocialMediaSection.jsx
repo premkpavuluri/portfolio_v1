@@ -4,8 +4,8 @@ import Icon from "./Icon";
 import {SocialMedia, SocialMediaIcon} from "../styles/PortfolioComponents";
 
 const SocialMediaSection = () => {
-  const socialLinks = config.socialMedia.map(({name, url}) => {
-    return <SocialMediaIcon href={url} target={"_blank"}>
+  const socialLinks = config.socialMedia.map(({name, url}, index) => {
+    return <SocialMediaIcon key={index} href={url} target={"_blank"}>
       <Icon name={name}/>
     </SocialMediaIcon>
   });

@@ -315,7 +315,7 @@ const JobTitleSection = styled.h2`
     }
 `;
 
-const JobDescription = styled.p`
+const JobDescription = styled.div`
     font-size: 1.2rem;
     font-weight: 400;
     padding-left: 0.5rem;
