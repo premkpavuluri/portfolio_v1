@@ -490,9 +490,9 @@ const ContactInfoWrapper = styled.div`
     align-items: center;
     margin-top: 0.5rem;
     margin-bottom: 2rem;
-    
+
     @media (max-width: 480px) {
-        width: 95%;
+        width: 100%;
         padding: 0.5rem;
     }
 `;
