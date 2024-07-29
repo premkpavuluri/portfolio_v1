@@ -60,6 +60,14 @@ const NameLogo = styled.div`
     &:hover {
         cursor: pointer;
     }
+
+    @media (max-width: 480px) {
+        width: 100%;
+        padding: 0.2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 `;
 
 const Main = styled.main`
@@ -78,7 +86,7 @@ const SectionWrapper = styled.div`
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    
+
     @media (max-width: 1024px) {
         width: 90%;
         padding-top: 4rem;
@@ -96,7 +104,7 @@ const AboutCard = styled.div`
     margin-right: auto;
     align-items: center;
     padding-top: 5rem;
-    
+
     @media (max-width: 1024px) {
         width: 90%;
     }
@@ -128,7 +136,7 @@ const DPBox = styled.div`
     border-radius: 50%;
     aspect-ratio: 1;
     margin: 0 auto;
-    
+
     @media (max-width: 480px) {
         border-radius: 1%;
         width: 200px;
@@ -143,7 +151,7 @@ const ProfilePic = styled.img`
     border-radius: 50%;
     aspect-ratio: 1;
     border: 0.2em solid var(--primary-color);
-    
+
     @media (max-width: 480px) {
         border-radius: 5%;
         border: 0.20em solid var(--primary-color);
@@ -157,7 +165,7 @@ const DescriptionBox = styled.div`
     justify-content: flex-start;
     align-items: flex-start;
     row-gap: 1.5rem;
-    
+
     @media (max-width: 1024px) {
         width: 100%;
     }
@@ -183,7 +191,7 @@ const LocationIcon = styled.span`
 const LocationText = styled.p`
     margin-left: 0.5em;
     font-size: 1.5rem;
-    
+
     @media (max-width: 1024px) {
         width: max-content;
     }
@@ -200,7 +208,7 @@ const AboutIcon = styled.span`
     width: 1.5em;
     height: 1.5rem;
     margin-right: 0.5em;
-    
+
     @media (max-width: 1024px) {
         width: max-content;
         height: 1.2rem;
@@ -242,12 +250,12 @@ const Skill = styled.div`
         transition: 0.5s;
         cursor: pointer;
     }
-    
+
     @media (max-width: 1024px) {
         width: 20%;
         height: 20%;
     }
-    
+
     @media (max-width: 480px) {
         width: 40%;
         height: 40%;
@@ -348,7 +356,7 @@ const ProjectWallpaper = styled.img`
         transition: 0.5s;
         transform: scale(1.01);
     }
-    
+
     @media (max-width: 1024px) {
         width: 55%;
     }
@@ -375,7 +383,7 @@ const ProjectContainer = styled.div`
     @media (max-width: 1024px) {
         column-gap: 0.2rem;
     }
-    
+
     @media (max-width: 480px) {
         flex-direction: column;
     }
@@ -392,7 +400,7 @@ const ProjectInfoBox = styled.div`
     @media (max-width: 1024px) {
         width: 45%;
     }
-    
+
     @media (max-width: 480px) {
         width: 96%;
         padding: 1rem;
@@ -405,7 +413,7 @@ const ProjectTitle = styled.div`
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 0.6rem;
-    
+
     @media (max-width: 1024px) {
         font-size: 1.5rem;
     }
@@ -419,7 +427,7 @@ const ProjectDescription = styled.div`
     text-decoration: none;
     scrollbar-width: thin;
     scrollbar-color: var(--heading-color) transparent;
-    
+
     @media (max-width: 1024px) {
         font-size: 1.1rem;
     }
@@ -446,7 +454,7 @@ const ViewLinks = styled.div`
     display: flex;
     align-content: space-between;
     column-gap: 1rem;
-    
+
     @media (max-width: 1024px) {
         column-gap: 0.5rem;
         width: 96%;
@@ -474,7 +482,7 @@ const SymbolStyles = styled.span`
     position: static;
     width: 20px;
     height: 20px;
-    
+
     &:hover {
         cursor: pointer;
         text-shadow: 0 0 10px white;
@@ -502,7 +510,7 @@ const Info = styled.div`
     font-size: 1.2rem;
     padding-top: 2rem;
     padding-bottom: 0.5rem;
-    
+
     @media (max-width: 480px) {
         font-size: 1rem;
         padding: 0.8rem;
@@ -520,7 +528,7 @@ const EmailIconWrapper = styled.div`
     display: block;
     width: 1.5rem;
     height: 1.5rem;
-    
+
     @media (max-width: 480px) {
         width: 1.3rem;
         height: 1.3rem;
@@ -533,7 +541,7 @@ const Email = styled.a`
     font-size: 1.2rem;
     margin: 0.5rem;
     padding: 0.5rem;
-    
+
     @media (max-width: 480px) {
         padding: 0.3rem;
     }
