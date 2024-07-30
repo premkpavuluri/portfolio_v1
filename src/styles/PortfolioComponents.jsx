@@ -46,6 +46,7 @@ const HeaderBox = styled.header`
     justify-content: space-between;
     top: 0;
     z-index: 100;
+    transition: 0.90s;
 `;
 
 const NameLogo = styled.div`

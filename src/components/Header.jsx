@@ -3,6 +3,7 @@ import {HeaderBox, NameLogo, NavBar, NavBtn} from "../styles/PortfolioComponents
 import {config} from "../config/Config";
 import useScreenWidth from "../hooks/useScreenWidth";
 import styled from "styled-components";
+import Icon from "./Icon";
 
 const SideBarWrapper = styled.div`
     background-color: var(--secondary-background-color);
@@ -12,9 +13,9 @@ const SideBarWrapper = styled.div`
 
 const SideBarIconWrapper = styled.div`
     display: block;
-    font-size: 2rem;
-    margin: 0.5rem;
-    padding-left: 1rem;
+    aspect-ratio: 1;
+    width: 50px;
+    margin: 0.2rem 0 0 1.2rem;
 `;
 
 const SideBarBtn = styled.div`
@@ -25,6 +26,7 @@ const SideBarBtn = styled.div`
     transition: 0.90s;
     text-align: center;
     font-weight: 400;
+    margin: 0.2rem 0;
 
     &:hover {
         transition: 0.90s;
@@ -60,7 +62,9 @@ const SideBarComponent = ({sections, handleOnclick, myName}) => {
   }
 
   return (<SideBarWrapper onMouseLeave={handleSideBar}>
-    <SideBarIconWrapper onClick={handleSideBar}>=</SideBarIconWrapper>
+    <SideBarIconWrapper onClick={handleSideBar}>
+      <Icon name="menu"/>
+    </SideBarIconWrapper>
     <NameLogo onClick={() => handleOnclick(sections[0].id)}>{myName}</NameLogo>
     {isSideBarOpen &&
       <SideBarContent onMouseLeave={handleSideBar}>{sideBarBtns}</SideBarContent>
