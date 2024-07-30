@@ -21,6 +21,7 @@ import {ReactComponent as FacebookIcon} from "assets/icons/facebook.svg";
 import {ReactComponent as TwitterIcon} from "assets/icons/twitter.svg";
 import {ReactComponent as LocationIcon} from "assets/icons/location.svg";
 import {ReactComponent as AboutIcon} from "assets/icons/about.svg";
+import {ReactComponent as MenuIcon} from "assets/icons/menu.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
@@ -44,6 +45,7 @@ const iconComponents = {
   'twitter': TwitterIcon,
   'location': LocationIcon,
   'about': AboutIcon,
+  'menu': MenuIcon,
   'default': IconNotFound
 };
 
