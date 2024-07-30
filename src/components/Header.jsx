@@ -10,7 +10,7 @@ const SideBarWrapper = styled.div`
     justify-content: flex-start;
 `;
 
-const SideBarIcon = styled.div`
+const SideBarIconWrapper = styled.div`
     display: block;
     font-size: 2rem;
     margin: 0.5rem;
@@ -24,6 +24,7 @@ const SideBarBtn = styled.div`
     padding: 1rem;
     transition: 0.90s;
     text-align: center;
+    font-weight: 400;
 
     &:hover {
         transition: 0.90s;
@@ -59,7 +60,7 @@ const SideBarComponent = ({sections, handleOnclick, myName}) => {
   }
 
   return (<SideBarWrapper onMouseLeave={handleSideBar}>
-    <SideBarIcon onClick={handleSideBar}>=</SideBarIcon>
+    <SideBarIconWrapper onClick={handleSideBar}>=</SideBarIconWrapper>
     <NameLogo onClick={() => handleOnclick(sections[0].id)}>{myName}</NameLogo>
     {isSideBarOpen &&
       <SideBarContent onMouseLeave={handleSideBar}>{sideBarBtns}</SideBarContent>
@@ -74,7 +75,6 @@ const Header = ({onClick, activeSection}) => {
   const {sections, myName} = config;
 
   useEffect(() => {
-    console.log("screen width: ", screenWidth)
     setIsMobileView(false)
     if (screenWidth <= 480) {
       setIsMobileView(true);
