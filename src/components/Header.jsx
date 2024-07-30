@@ -17,18 +17,53 @@ const SideBarIcon = styled.div`
     padding-left: 1rem;
 `;
 
+const SideBarBtn = styled.div`
+    font-size: 1.1rem;
+    width: 100%;
+    height: 3rem;
+    padding: 1rem;
+    transition: 0.90s;
+    text-align: center;
+
+    &:hover {
+        transition: 0.90s;
+        font-size: 1.2rem;
+        font-weight: bold;
+    }
+`;
+
+const SideBarContent = styled.div`
+    background-color: var(--secondary-background-color);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 100;
+`;
+
 const SideBarComponent = ({sections, handleOnclick, myName}) => {
-  console.log("log in mobile view");
+  const [isSideBarOpen, setIsSideBarOpen] = useState(false);
 
-  // const sideBarBtns = sections.map((section) => (
-  //   <SideBarBtn key={section.id} onClick={() => handleOnclick(section.id)}>
-  //     {section.title}
-  //   </SideBarBtn>
-  // ));
+  const sideBarBtns = sections.map((section) => (
+    <SideBarBtn key={section.id} onClick={() => handleOnclick(section.id)}>
+      {section.title}
+    </SideBarBtn>
+  ));
 
-  return (<SideBarWrapper>
-    <SideBarIcon>=</SideBarIcon>
+  const handleSideBar = () => {
+    setIsSideBarOpen(!isSideBarOpen);
+  }
+
+  return (<SideBarWrapper onMouseLeave={handleSideBar}>
+    <SideBarIcon onClick={handleSideBar}>=</SideBarIcon>
     <NameLogo onClick={() => handleOnclick(sections[0].id)}>{myName}</NameLogo>
+    {isSideBarOpen &&
+      <SideBarContent onMouseLeave={handleSideBar}>{sideBarBtns}</SideBarContent>
+    }
   </SideBarWrapper>)
 };
 
