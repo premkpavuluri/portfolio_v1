@@ -61,13 +61,17 @@ const SideBarComponent = ({sections, handleOnclick, myName}) => {
     setIsSideBarOpen(!isSideBarOpen);
   }
 
-  return (<SideBarWrapper onMouseLeave={handleSideBar}>
+  const handleMouseOut = () => {
+    setIsSideBarOpen(false);
+  }
+
+  return (<SideBarWrapper onMouseLeave={handleMouseOut}>
     <SideBarIconWrapper onClick={handleSideBar}>
       <Icon name="menu"/>
     </SideBarIconWrapper>
     <NameLogo onClick={() => handleOnclick(sections[0].id)}>{myName}</NameLogo>
     {isSideBarOpen &&
-      <SideBarContent onMouseLeave={handleSideBar}>{sideBarBtns}</SideBarContent>
+      <SideBarContent onMouseLeave={handleMouseOut}>{sideBarBtns}</SideBarContent>
     }
   </SideBarWrapper>)
 };
