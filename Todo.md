@@ -1,4 +1,7 @@
 # :::TODO:::
+* [ ] Add Icons for sidebar
+* [ ] Refactor:
+  * [ ] Correct the alignment(left-align) in mobile view
 * [ ] Add Scroll to top button
 * [ ] Add a toggle button to switch between modes
   * [ ] Add a dark mode
