@@ -14,6 +14,7 @@
   * [ ] Mobile view
   * [ ] Tablet view
   * [ ] Desktop view
+* [ ] Update copyrights year automatically 
 
 # :::DONE:::
 * [x] Update the content in the page
