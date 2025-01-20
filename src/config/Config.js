@@ -139,7 +139,7 @@ const config = {
       url: 'https://x.com/PremPavuluri'
     }
   ],
-  copyRightYear: '2024',
+  copyRightYear: '2025',
 };
 
 export {config, sectionLabels};
