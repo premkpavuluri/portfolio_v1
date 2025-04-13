@@ -18,7 +18,7 @@ const config = {
   myName: 'Prem Kumar',
   emailId: 'premkumarpavuluri@gmail.com',
   city: 'Andhra Pradesh, India',
-  aboutMe: `I am a Full-Stack Developer. I love working on projects and problems that challenge me to grow. Happy to collaborate with others. `,
+  aboutMe: `I am a passionate Full-Stack Developer with 4+ years of experience, crafting innovative and user-friendly web solutions. I love working on projects that help me grow.`,
   profilePic: 'https://avatars.githubusercontent.com/u/52355836?v=4',
   skills: [
     {

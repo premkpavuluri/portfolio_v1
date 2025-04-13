@@ -180,8 +180,8 @@ const LocationBox = styled.div`
 `;
 
 const LocationIcon = styled.span`
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
 
     @media (max-width: 1024px) {
         width: 1.2rem;
@@ -191,7 +191,7 @@ const LocationIcon = styled.span`
 
 const LocationText = styled.p`
     margin-left: 0.5em;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 
     @media (max-width: 1024px) {
         width: max-content;
@@ -200,7 +200,7 @@ const LocationText = styled.p`
 
 const Description = styled.div`
     display: flex;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     justify-content: flex-start;
     align-items: flex-start;
 `;

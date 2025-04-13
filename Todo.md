@@ -1,7 +1,8 @@
 # :::TODO:::
 * [ ] Update the about section content
   * [ ] Add social media links(icons)
-  * [ ] update the about section content
+  * [x] update the about section content
+  * [ ] Style the profile picture and it's content(left align)
 * [ ] Update the color palette
 * [ ] Update Project section
     * [ ] Add "more" button to the project section
