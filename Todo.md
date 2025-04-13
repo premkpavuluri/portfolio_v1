@@ -17,7 +17,6 @@
 * [ ] Update the Readme file and provide prod link and clean the readme
 * [ ] Setup eslint for the project
 * [ ] Add loader while fetching profile picture
-* [ ] Add favicon to the website with pk logo
 * [ ] Make the website responsive
   * [ ] Mobile view
   * [ ] Tablet view
@@ -25,6 +24,7 @@
 * [ ] Update copyrights year automatically 
 
 # :::DONE:::
+* [x] Add favicon to the website with PK or P logo
 * [x] Update the content in the page
   * [x] About section content
   * [x] Experience section content
