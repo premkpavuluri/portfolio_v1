@@ -1,4 +1,12 @@
 # :::TODO:::
+* [ ] Update the about section content
+  * [ ] Add social media links(icons)
+  * [ ] update the about section content
+* [ ] Update the color palette
+* [ ] Update Project section
+    * [ ] Add "more" button to the project section
+* [ ] (idea) Update SKILLS section
+  * [ ] on hover, move the icon to left, on right side, show the skill level(%) as vertical bar
 * [ ] Add Icons for sidebar
 * [ ] Refactor:
   * [ ] Correct the alignment(left-align) in mobile view
@@ -6,7 +14,7 @@
 * [ ] Add a toggle button to switch between modes
   * [ ] Add a dark mode
   * [ ] Add a light mode
-* [ ] Update the Readme file and provide prod link
+* [ ] Update the Readme file and provide prod link and clean the readme
 * [ ] Setup eslint for the project
 * [ ] Add loader while fetching profile picture
 * [ ] Add favicon to the website with pk logo
