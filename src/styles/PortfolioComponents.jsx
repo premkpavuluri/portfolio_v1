@@ -304,7 +304,7 @@ const AboutExpBox = styled.div`
     width: 85%;
     flex-direction: column;
     row-gap: 1rem;
-    padding: 1rem;
+    padding: 1.5rem 1rem;
     border-left: 3px solid var(--primary-color);
 `;
 
@@ -329,6 +329,7 @@ const JobDescription = styled.div`
     font-weight: 400;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    line-height: 1.8rem;
 `;
 
 const IconWrapper = styled.div`

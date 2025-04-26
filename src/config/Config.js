@@ -74,17 +74,24 @@ const config = {
   myExperience: [
     {
       company: 'ThoughtWorks',
-      role: 'Full Stack Developer',
-      description: "I'm working as a Application developer at ThoughtWorks. I'm responsible for analysing requirements, developing, testing, deploying and maintaining the web applications.\n \nCurrently, I'm working on various technologies like ReactJs, Kotlin, SpringBoot, MongoDB, Docker, Kubernetes etc.",
-      from: '2023',
+      role: 'Consultant',
+      description: "I'm working as a Application developer at ThoughtWorks. I'm responsible for analysing requirements, developing, testing, deploying and maintaining the web applications.\n \nCurrently, I'm working on various technologies like ReactJs, Kotlin, SpringBoot, MongoDB, Docker, Kubernetes,...etc.",
+      from: 'July 2023',
       to: 'Present'
+    },
+    {
+      company: 'ThoughtWorks',
+      role: 'Grad Consultant',
+      description: "I've worked on FinTech project as a Grad Consultant in ThoughtWorks. I've collaborated with clients closely to understand their requirements and provide them with the best solutions.\n \nI was responsible for developing and maintaining the web application using ReactJS, Kotlin, SpringBoot, MongoDB, Docker, Kubernetes,...etc.",
+      from: 'Oct 2022',
+      to: 'May 2023'
     },
     {
       company: 'ThoughtWorks',
       role: 'Intern',
       description: "I've joined as a STEP intern in ThoughtWorks. STEP is an intensive entry level program in ThoughtWorks Where \"We Work While Learning\". \n \nHere I got to learn various technologies, best practices, principles and apply them on real time projects. I got a chance to learn from multiple Industry experts, They helped me to build a strong foundation for my career in the IT industry.",
-      from: '2021',
-      to: '2023'
+      from: 'Feb 2021',
+      to: 'July 2023'
     }
   ],
   myProjects: [
