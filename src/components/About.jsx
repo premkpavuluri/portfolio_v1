@@ -6,6 +6,7 @@ import {
   Description,
   DescriptionBox,
   DPBox,
+  NameBox,
   ProfilePic
 } from "../styles/PortfolioComponents";
 import Location from "./Location";
@@ -19,10 +20,12 @@ const About = ({id}) => {
     <BgCard>
       <DPBox><ProfilePic src={profilePic} alt="Profile"/></DPBox>
       <DescriptionBox>
+        <NameBox>Prem kumar</NameBox>
         <Location city={city}></Location>
         <Description>
           <AboutIcon><Icon name={"about"}/></AboutIcon>
-          {aboutMe}</Description>
+          {aboutMe}
+        </Description>
       </DescriptionBox>
     </BgCard>
   </AboutCard>);

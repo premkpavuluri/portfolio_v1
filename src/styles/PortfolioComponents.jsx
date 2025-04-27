@@ -82,7 +82,7 @@ const SectionWrapper = styled.div`
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 5rem;
+    padding-top: 3rem;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -116,7 +116,7 @@ const BgCard = styled.div`
     color: var(--text-color);
     width: 100%;
     margin-top: 4rem;
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -165,7 +165,7 @@ const DescriptionBox = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    row-gap: 1.5rem;
+    row-gap: 1.3rem;
 
     @media (max-width: 1024px) {
         width: 100%;
@@ -218,9 +218,9 @@ const AboutIcon = styled.span`
 `;
 
 const TitleSection = styled.div`
-    font-size: 2rem;
+    font-size: 1.9rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     color: var(--heading-color);
 `;
 
@@ -578,6 +578,12 @@ const SocialMediaIcon = styled.a`
     }
 `;
 
+const NameBox = styled.div`
+    color: var(--text-color);
+    font-weight: 400;
+    font-size: 1.6rem;
+`;
+
 export {
   PortfolioContainer,
   HeaderBox,
@@ -624,5 +630,6 @@ export {
   EmailSection,
   EmailIconWrapper,
   SocialMedia,
-  SocialMediaIcon
+  SocialMediaIcon,
+  NameBox,
 };
