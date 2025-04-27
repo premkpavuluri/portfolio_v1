@@ -116,7 +116,7 @@ const BgCard = styled.div`
     color: var(--text-color);
     width: 100%;
     margin-top: 4rem;
-    padding: 3rem 2rem;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -131,12 +131,16 @@ const BgCard = styled.div`
 `;
 
 const DPBox = styled.div`
-    display: block;
     height: 250px;
     width: 250px;
     border-radius: 50%;
     aspect-ratio: 1;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
 
     @media (max-width: 480px) {
         border-radius: 1%;
@@ -160,7 +164,7 @@ const ProfilePic = styled.img`
 `;
 
 const DescriptionBox = styled.div`
-    width: 65%;
+    width: 68%;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -581,7 +585,7 @@ const SocialMediaIcon = styled.a`
 const NameBox = styled.div`
     color: var(--text-color);
     font-weight: 400;
-    font-size: 1.6rem;
+    font-size: 1.3rem;
 `;
 
 export {

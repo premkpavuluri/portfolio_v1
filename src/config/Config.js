@@ -16,6 +16,7 @@ const config = {
     {id: 'contact-id', title: sectionLabels.CONTACT}
   ],
   myName: 'Prem Kumar',
+  fullName: 'PREM KUMAR PAVULURI',
   emailId: 'premkumarpavuluri@gmail.com',
   city: 'Andhra Pradesh, India',
   aboutMe: `I am a passionate Full-Stack Developer with 4+ years of experience, crafting innovative and user-friendly web solutions. I love working on projects that help me grow.`,

@@ -14,13 +14,15 @@ import {config} from "../config/Config";
 import Icon from "./Icon";
 
 const About = ({id}) => {
-  const {city, aboutMe, profilePic} = config;
+  const {city, aboutMe, profilePic, fullName} = config;
 
   return (<AboutCard id={id}>
     <BgCard>
-      <DPBox><ProfilePic src={profilePic} alt="Profile"/></DPBox>
+      <DPBox>
+        <ProfilePic src={profilePic} alt="Profile"/>
+        <NameBox>{fullName}</NameBox>
+      </DPBox>
       <DescriptionBox>
-        <NameBox>Prem kumar</NameBox>
         <Location city={city}></Location>
         <Description>
           <AboutIcon><Icon name={"about"}/></AboutIcon>
