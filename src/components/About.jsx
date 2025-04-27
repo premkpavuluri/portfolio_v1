@@ -1,7 +1,6 @@
 import React from "react";
 import {
   AboutCard,
-  AboutIcon,
   BgCard,
   Description,
   DescriptionBox,
@@ -11,7 +10,7 @@ import {
 } from "../styles/PortfolioComponents";
 import Location from "./Location";
 import {config} from "../config/Config";
-import Icon from "./Icon";
+import SocialMediaBox from "./SocialMediaBox";
 
 const About = ({id}) => {
   const {city, aboutMe, profilePic, fullName} = config;
@@ -25,9 +24,9 @@ const About = ({id}) => {
       <DescriptionBox>
         <Location city={city}></Location>
         <Description>
-          <AboutIcon><Icon name={"about"}/></AboutIcon>
           {aboutMe}
         </Description>
+        <SocialMediaBox/>
       </DescriptionBox>
     </BgCard>
   </AboutCard>);

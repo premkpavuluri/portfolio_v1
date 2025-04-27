@@ -19,7 +19,7 @@ const config = {
   fullName: 'PREM KUMAR PAVULURI',
   emailId: 'premkumarpavuluri@gmail.com',
   city: 'Andhra Pradesh, India',
-  aboutMe: `I am a passionate Full-Stack Developer with 4+ years of experience, crafting innovative and user-friendly web solutions. I love working on projects that help me grow.`,
+  aboutMe: `I am a passionate Full-Stack developer with 4+ years of experience, crafting innovative and user-friendly web solutions. I love working on projects that help me grow. I always keen to learn new technologies and I’ve worked with a wide range of technologies including ReactJs, Java, SpringBoot, MongoDB and more...`,
   profilePic: 'https://avatars.githubusercontent.com/u/52355836?v=4',
   skills: [
     {

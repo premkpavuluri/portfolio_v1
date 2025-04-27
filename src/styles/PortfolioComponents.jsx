@@ -116,7 +116,7 @@ const BgCard = styled.div`
     color: var(--text-color);
     width: 100%;
     margin-top: 4rem;
-    padding: 4rem 2rem;
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -196,6 +196,7 @@ const LocationIcon = styled.span`
 const LocationText = styled.p`
     margin-left: 0.5em;
     font-size: 1.2rem;
+    color: var(--text-color);
 
     @media (max-width: 1024px) {
         width: max-content;
@@ -207,6 +208,9 @@ const Description = styled.div`
     font-size: 1.2rem;
     justify-content: flex-start;
     align-items: flex-start;
+    line-height: 1.7rem;
+    word-spacing: 0.09rem;
+    color: var(--text-color);
 `;
 
 const AboutIcon = styled.span`
@@ -583,9 +587,10 @@ const SocialMediaIcon = styled.a`
 `;
 
 const NameBox = styled.div`
-    color: var(--text-color);
+    color: var(--text-highlight-color);
     font-weight: 400;
     font-size: 1.3rem;
+    //padding-top: 0.5rem;
 `;
 
 export {
