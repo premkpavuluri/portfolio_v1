@@ -15,17 +15,17 @@ const PortfolioContainer = styled.div`
 `
 
 const NavBar = styled.nav`
-    width: 100%;
+    width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 `
 
 const NavBtn = styled.div`
-    font-size: 1.1rem;
+    font-size: 1rem;
     width: 100%;
     height: 100%;
-    padding: 1rem;
+    padding: 0.8rem;
     text-align: center;
     transition: 0.9s;
 
@@ -51,7 +51,7 @@ const HeaderBox = styled.header`
 
 const NameLogo = styled.div`
     width: 50%;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--primary-color);
     border-radius: 10px;
     justify-content: center;
