@@ -1,6 +1,6 @@
 # :::TODO:::
 * [ ] Update the about section content
-  * [ ] Add social media links(icons)
+  * [x] Add social media links(icons)
   * [x] update the about section content
   * [ ] Style the profile picture and it's content(left align)
 * [ ] Update the color palette

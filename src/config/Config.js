@@ -145,6 +145,12 @@ const config = {
     {
       name: 'twitter',
       url: 'https://x.com/PremPavuluri'
+    },{
+      name: 'blog',
+      url: 'https://x.com/PremPavuluri'
+    },{
+      name: 'mail',
+      url: 'mailto:premkumarpavuluri@gmail.com'
     }
   ],
   copyRightYear: '2025',

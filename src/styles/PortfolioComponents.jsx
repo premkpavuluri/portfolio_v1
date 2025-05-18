@@ -169,7 +169,7 @@ const DescriptionBox = styled.div`
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    row-gap: 1.3rem;
+    row-gap: 1.4rem;
 
     @media (max-width: 1024px) {
         width: 100%;
@@ -557,21 +557,27 @@ const Email = styled.a`
     }
 `;
 
-const SocialMedia = styled.div`
+const SocialMediaIconBox = styled.div`
     width: 100%;
     color: var(--text-color);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
-    padding: 1rem;
+    padding: ${({type}) => type === "contact" ? "1rem 2rem" : "1.5rem 0 0 0"};
 `;
 
 const SocialMediaIcon = styled.a`
     text-decoration: none;
     color: var(--text-color);
-    width: 2.5rem;
-    height: 2.5rem;
+    width: ${({size}) =>
+            size === "small" ? "1.5rem" :
+                    size === "large" ? "3.5rem" :
+                            "2rem"};
+    height: ${({size}) =>
+            size === "small" ? "1.5rem" :
+                    size === "large" ? "3.5rem" :
+                            "2rem"};
     display: flex;
     align-items: center;
     justify-content: center;
@@ -592,6 +598,22 @@ const NameBox = styled.div`
     font-size: 1.3rem;
     //padding-top: 0.5rem;
 `;
+
+const GetInTouchButton = styled.button`
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: var(--primary-color-dark);
+    }
+`;
+
 
 export {
   PortfolioContainer,
@@ -638,7 +660,8 @@ export {
   Email,
   EmailSection,
   EmailIconWrapper,
-  SocialMedia,
   SocialMediaIcon,
+  SocialMediaIconBox,
   NameBox,
+  GetInTouchButton
 };

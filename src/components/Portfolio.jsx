@@ -22,10 +22,17 @@ const Portfolio = () => {
     }
   };
 
+  const scrollToContact = () => {
+    const contactNode = document.getElementById(sections[4].id);
+    if (contactNode) {
+      contactNode.scrollIntoView({behavior: 'smooth'});
+    }
+  };
+
   return (<PortfolioContainer>
     <Header onClick={handleScrollSection} activeSection={activeSection}/>
     <Main>
-      <About id={sections[0].id}/>
+      <About id={sections[0].id} handleGetInTouch={scrollToContact}/>
       <Skills id={sections[1].id}/>
       <Experience id={sections[2].id}/>
       <Projects id={sections[3].id}/>
