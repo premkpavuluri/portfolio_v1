@@ -147,7 +147,7 @@ const config = {
       url: 'https://x.com/PremPavuluri'
     },{
       name: 'blog',
-      url: 'https://x.com/PremPavuluri'
+      url: 'https://premkpavuluri.github.io/'
     },{
       name: 'mail',
       url: 'mailto:premkumarpavuluri@gmail.com'

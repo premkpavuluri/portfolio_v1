@@ -115,6 +115,7 @@ const BgCard = styled.div`
     background-color: var(--primary-background-color);
     color: var(--text-color);
     width: 100%;
+    border-radius: 10px;
     margin-top: 4rem;
     padding: 3rem 2rem;
     display: flex;
