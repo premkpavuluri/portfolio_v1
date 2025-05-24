@@ -318,6 +318,7 @@ const AboutExpBox = styled.div`
 `;
 
 const JobTitleSection = styled.h2`
+    color: var(--text-color);
     font-size: 1.5rem;
     font-weight: 700;
     padding-left: 0.5rem;
@@ -339,6 +340,7 @@ const JobDescription = styled.div`
     padding-left: 0.5rem;
     padding-right: 0.5rem;
     line-height: 1.8rem;
+    color: var(--secondary-color);
 `;
 
 const IconWrapper = styled.div`
@@ -424,6 +426,7 @@ const ProjectTitle = styled.div`
     font-size: 1.8rem;
     text-align: center;
     margin-bottom: 0.6rem;
+    color: var(--text-color);
 
     @media (max-width: 1024px) {
         font-size: 1.5rem;
@@ -435,6 +438,7 @@ const ProjectDescription = styled.div`
     font-size: 1.2rem;
     height: 200px;
     overflow: auto;
+    color: var(--secondary-color);
     text-decoration: none;
     scrollbar-width: thin;
     scrollbar-color: var(--heading-color) transparent;
@@ -447,28 +451,32 @@ const ProjectDescription = styled.div`
 const ViewBtn = styled.a`
     text-decoration: none;
     color: var(--text-color);
+    background-color: var(--primary-color);
     display: block;
     width: 100%;
     text-align: center;
     padding: 0.5rem;
     transition: 0.5s;
-    border: 1px solid var(--secondary-color);
+    border-radius: 0.3rem;
 
     &:hover {
-        background-color: var(--primary-color);
+        background-color: var(--primary-color-dark);
         cursor: pointer;
         transition: 0.5s;
     }
 `;
 
 const ViewLinks = styled.div`
+    width: 60%;
     display: flex;
-    align-content: space-between;
     column-gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
 
     @media (max-width: 1024px) {
         column-gap: 0.5rem;
-        width: 96%;
+        width: 70%;
     }
 `;
 
@@ -503,7 +511,7 @@ const SymbolStyles = styled.span`
 const ContactInfoWrapper = styled.div`
     background-color: var(--primary-background-color);
     color: var(--text-color);
-    width: 70%;
+    width: 60%;
     display: flex;
     flex-direction: column;
     align-items: center;
