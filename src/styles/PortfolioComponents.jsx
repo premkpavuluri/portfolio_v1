@@ -174,6 +174,7 @@ const DescriptionBox = styled.div`
 
     @media (max-width: 1024px) {
         width: 100%;
+        padding: 2rem 0;
     }
 `;
 
@@ -415,6 +416,7 @@ const ProjectInfoBox = styled.div`
     }
 
     @media (max-width: 480px) {
+        height: auto;
         width: 96%;
         padding: 1rem;
     }
