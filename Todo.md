@@ -1,8 +1,4 @@
 # :::TODO:::
-* [ ] Update the about section content
-  * [x] Add social media links(icons)
-  * [x] update the about section content
-  * [ ] Style the profile picture and it's content(left align)
 * [ ] Update the color palette
 * [ ] Update Project section
     * [ ] Add "more" button to the project section
@@ -18,13 +14,17 @@
 * [ ] Update the Readme file and provide prod link and clean the readme
 * [ ] Setup eslint for the project
 * [ ] Add loader while fetching profile picture
-* [ ] Make the website responsive
-  * [ ] Mobile view
+* [x] Make the website responsive
+  * [x] Mobile view
   * [ ] Tablet view
-  * [ ] Desktop view
+  * [x] Desktop view
 * [ ] Update copyrights year automatically 
 
 # :::DONE:::
+* [x] Update the about section content
+  * [x] Add social media links(icons)
+  * [x] update the about section content
+  * [x] Style the profile picture and it's content(left align)
 * [x] Add favicon to the website with PK or P logo
 * [x] Update the content in the page
   * [x] About section content

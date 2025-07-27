@@ -1,70 +1,170 @@
-# Getting Started with Create React App
+# Personal Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive portfolio website built with React to showcase my skills, experience, and projects. This website serves as both a professional showcase and a practical application of my React development skills.
 
-## Available Scripts
+## 🎯 Motivation
 
-In the project directory, you can run:
+I always wanted to build my own portfolio where I can showcase my skills and journey. At the same time, I wanted to apply my learnings, so I built my own portfolio. This project represents my passion for web development and demonstrates my ability to create modern, user-friendly applications using React.
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Responsive Design**: Mobile-first approach with smooth transitions
+- **Modern UI/UX**: Clean, professional design with dark theme
+- **Dynamic Navigation**: Smooth scrolling between sections
+- **Interactive Components**: Hover effects and animations
+- **Social Media Integration**: Direct links to professional profiles
+- **Project Showcase**: Detailed project descriptions with live links
+- **Skills Visualization**: Interactive skill cards with icons
+- **Experience Timeline**: Professional journey presentation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Technology Stack
 
-### `npm test`
+- **Frontend**: React 18.3.1
+- **Styling**: Styled Components (CSS-in-JS)
+- **Build Tool**: Create React App
+- **Icons**: Custom SVG icons
+- **Deployment**: Ready for deployment on any static hosting platform
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📁 Project Structure
 
-### `npm run build`
+```
+src/
+├── components/          # React components
+│   ├── About.jsx       # Personal introduction
+│   ├── Header.jsx      # Navigation header
+│   ├── Skills.jsx      # Skills showcase
+│   ├── Experience.jsx  # Work experience
+│   ├── Projects.jsx    # Project portfolio
+│   ├── Contact.jsx     # Contact information
+│   └── Footer.jsx      # Footer section
+├── styles/             # Styled components
+│   └── PortfolioComponents.jsx
+├── hooks/              # Custom React hooks
+│   ├── useScreenWidth.jsx
+│   └── useIcon.jsx
+├── config/             # Application configuration
+│   └── Config.js
+└── assets/             # Static assets
+    ├── icons/          # SVG icons
+    └── images/         # Project images
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js (version 14 or higher)
+- npm or yarn package manager
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/premkpavuluri/portfolio_react.git
+   cd portfolio_react
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. **Start the development server**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. **Open your browser**
+   Navigate to [http://localhost:3000](http://localhost:3000) to view the application.
 
-## Learn More
+### Available Scripts
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run eject` - Ejects from Create React App (one-way operation)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Customization
 
-### Code Splitting
+### Personal Information
+Update your personal information in `src/config/Config.js`:
+- Name and contact details
+- About me description
+- Skills and experience
+- Project information
+- Social media links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### Styling
+Modify the theme colors in `src/App.css`:
+```css
+:root {
+    --primary-background-color: #101825;
+    --secondary-background-color: #1f1f1f;
+    --primary-color: #1973c8;
+    --text-color: #c2c1c1;
+}
+```
 
-### Analyzing the Bundle Size
+### Icons
+Add new icons to `src/assets/icons/` and register them in `src/hooks/useIcon.jsx`.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 📱 Responsive Design
 
-### Making a Progressive Web App
+The website is fully responsive with breakpoints:
+- **Desktop**: 1024px and above
+- **Tablet**: 481px - 1023px
+- **Mobile**: 480px and below
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## 🔧 Key Features Implementation
 
-### Advanced Configuration
+### Dynamic Icon System
+- Custom hook for icon management
+- Fallback handling for missing icons
+- SVG optimization
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Responsive Navigation
+- Desktop: Horizontal navigation bar
+- Mobile: Hamburger menu with sidebar
+- Active section highlighting
 
-### Deployment
+### Smooth Scrolling
+- Section-based navigation
+- Smooth scroll behavior
+- Active section tracking
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 🚀 Deployment
 
-### `npm run build` fails to minify
+### Build for Production
+```bash
+npm run build
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Deploy Options
+- **Netlify**: Drag and drop the `build` folder
+- **Vercel**: Connect your GitHub repository
+- **GitHub Pages**: Use `gh-pages` package
+- **AWS S3**: Upload build files to S3 bucket
+
+## 📊 Performance
+
+- Optimized bundle size
+- Lazy loading for images
+- Efficient re-renders
+- CSS-in-JS optimization
+
+## 👨‍💻 About Me
+
+I'm a passionate Full-Stack developer with 4+ years of experience, currently working at ThoughtWorks. I love working on projects that help me grow and always keen to learn new technologies.
+
+### Connect with Me
+- **GitHub**: [premkpavuluri](https://github.com/premkpavuluri)
+- **LinkedIn**: [Prem Kumar Pavuluri](https://www.linkedin.com/in/pavuluri-prem-kumar-a20381191/)
+- **Email**: premkumarpavuluri@gmail.com
+
+---
+
+**Built with ❤️ using React and Styled Components**
