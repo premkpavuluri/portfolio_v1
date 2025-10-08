@@ -1,14 +1,13 @@
 import React from "react";
 import {CopyRights, FooterSection} from "../styles/PortfolioComponents";
 import Credits from "./Credits";
-import {config} from "../config/Config";
 
 const Footer = () => {
-  const {copyRightYear} = config;
+  const year = new Date().getFullYear();
 
   return (<FooterSection>
     <Credits/>
-    <CopyRights>&copy; {copyRightYear} Prem Kumar</CopyRights>
+    <CopyRights>&copy; {year} Prem Kumar</CopyRights>
   </FooterSection>);
 }
 
