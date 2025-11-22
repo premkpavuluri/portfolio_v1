@@ -24,6 +24,10 @@ import {ReactComponent as AboutIcon} from "assets/icons/about.svg";
 import {ReactComponent as MenuIcon} from "assets/icons/menu.svg";
 import {ReactComponent as BlogIcon} from "assets/icons/blog.svg";
 import {ReactComponent as MailIcon} from "assets/icons/mail.svg";
+import {ReactComponent as TypeScriptIcon} from "assets/icons/typescript.svg";
+import {ReactComponent as KubernetesIcon} from "assets/icons/kubernetes.svg";
+import {ReactComponent as GitIcon} from "assets/icons/git.svg";
+import {ReactComponent as KafkaIcon} from "assets/icons/kafka.svg";
 
 const iconComponents = {
   'javascript': JavascriptIcon,
@@ -50,6 +54,10 @@ const iconComponents = {
   'menu': MenuIcon,
   'blog': BlogIcon,
   'mail': MailIcon,
+  'typescript': TypeScriptIcon,
+  'kubernetes': KubernetesIcon,
+  'git': GitIcon,
+  'kafka': KafkaIcon,
   'default': IconNotFound
 };
 

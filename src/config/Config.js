@@ -31,6 +31,10 @@ const config = {
       displayName: "JavaScript"
     },
     {
+      name: "typescript",
+      displayName: "TypeScript"
+    },
+    {
       name: "java",
       displayName: "Java"
     },
@@ -47,10 +51,6 @@ const config = {
       displayName: "NodeJS"
     },
     {
-      name: "reactjs",
-      displayName: "React JS"
-    },
-    {
       name: "html",
       displayName: "HTML"
     },
@@ -59,24 +59,40 @@ const config = {
       displayName: "CSS"
     },
     {
+      name: "reactjs",
+      displayName: "React JS"
+    },
+    {
       name: "spring",
       displayName: "Spring"
+    },
+    {
+      name: "mongodb",
+      displayName: "MongoDB"
     },
     {
       name: "docker",
       displayName: "Docker"
     },
     {
-      name: "mongodb",
-      displayName: "MongoDB"
-    }
+      name: "kubernetes",
+      displayName: "Kubernetes"
+    },
+    {
+      name: "kafka",
+      displayName: "Kafka"
+    },
+    {
+      name: "git",
+      displayName: "Git"
+    },
   ],
   // Latest first
   myExperience: [
     {
       company: 'ThoughtWorks',
       role: 'Senior Consultant',
-      description: "I'm working as a Senior Consultant specializing in complex solutions and infrastructure architecture across the Fintech and Manufacturing domains. My role involved leading critical project streams, driving technical strategy, coordinating team cooperation, and managing deliverables towards the collective goal.\n \nLeveraging full-stack expertise across development and infrastructure tools (Java, Kotlin, Kafka, SpringBoot, React, Kubernetes,...etc), I acted as a core technical driver, consistently delivering high-quality, scalable solutions that significantly improved client system stability and accelerated project velocity",
+      description: "I'm working as a Senior Consultant specializing in complex solutions and infrastructure architecture across the Fintech and Manufacturing domains. My role involved leading critical project streams, driving technical strategy, coordinating team cooperation, and managing deliverables towards the collective goal.\n \nLeveraging full-stack expertise across development and infrastructure tools (Java, Kotlin, Kafka, SpringBoot, React, Kubernetes,...etc), I acted as a core technical driver, consistently delivering high-quality, scalable solutions that significantly improved client system stability and accelerated project velocity.",
       from: 'September 2024',
       to: 'Present'
     },
