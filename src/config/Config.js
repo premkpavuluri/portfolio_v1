@@ -93,7 +93,7 @@ const config = {
       company: 'ThoughtWorks',
       role: 'Senior Consultant',
       description: "I'm working as a Senior Consultant specializing in complex solutions and infrastructure architecture across the Fintech and Manufacturing domains. My role involved leading critical project streams, driving technical strategy, coordinating team cooperation, and managing deliverables towards the collective goal.\n \nLeveraging full-stack expertise across development and infrastructure tools (Java, Kotlin, Kafka, SpringBoot, React, Kubernetes,...etc), I acted as a core technical driver, consistently delivering high-quality, scalable solutions that significantly improved client system stability and accelerated project velocity.",
-      from: 'September 2024',
+      from: 'September 2025',
       to: 'Present'
     },
     {
@@ -101,7 +101,7 @@ const config = {
       role: 'Consultant',
       description: "I'm working as a Application developer at ThoughtWorks. I'm responsible for analysing requirements, developing, testing, deploying and maintaining the web applications.\n \nCurrently, I'm working on various technologies like ReactJs, Kotlin, SpringBoot, MongoDB, Docker, Kubernetes,...etc.",
       from: 'July 2023',
-      to: 'September 2024'
+      to: 'September 2025'
     },
     {
       company: 'ThoughtWorks',
